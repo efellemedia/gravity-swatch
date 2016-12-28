@@ -1,0 +1,18 @@
+body {
+    padding-top: 100px;
+    font-smoothing: antialiased;
+}
+
+p {
+    margin: 0 0 1em;
+}
+
+input,
+button {
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: .1px;
+}
+
+a {
+    transition: all 0.2s;
+}

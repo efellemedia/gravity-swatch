@@ -1,7 +1,3 @@
-// Cosmo 4.0.0
-// Bootswatch
-
-
 // Table of Contents
 //
 // Colors
@@ -15,26 +11,9 @@
 // Fonts
 // Components
 
-@mixin _assert-ascending($map, $map-name) {
-  $prev-key: null;
-  $prev-num: null;
-  @each $key, $num in $map {
-    @if $prev-num == null {
-      // Do nothing
-    } @else if not comparable($prev-num, $num) {
-      @warn "Potentially invalid value for #{$map-name}: This map must be in ascending order, but key '#{$key}' has value #{$num} whose unit makes it incomparable to #{$prev-num}, the value of the previous key '#{$prev-key}' !";
-    } @else if $prev-num >= $num {
-      @warn "Invalid value for #{$map-name}: This map must be in ascending order, but key '#{$key}' has value #{$num} which isn't greater than #{$prev-num}, the value of the previous key '#{$prev-key}' !";
-    }
-    $prev-key: $key;
-    $prev-num: $num;
-  }
-}
-
 // General variable structure
 //
 // Variable format should follow the `$component-modifier-state-property` order.
-
 
 // Colors
 //
@@ -46,11 +25,11 @@ $gray-light:                #818a91 !default;
 $gray-lighter:              #eceeef !default;
 $gray-lightest:             #f7f7f9 !default;
 
-$brand-primary:             #e8640f;
-$brand-success:             #32e56d;
-$brand-info:                #29d2e5;
-$brand-warning:             #e5c513;
-$brand-danger:              #e54913;
+$brand-primary:             #ff6f00;
+$brand-success:             #4caf50;
+$brand-info:                #00bcd4;
+$brand-warning:             #9c27b0;
+$brand-danger:              #f44336;
 $brand-inverse:             $gray-dark !default;
 
 
@@ -62,7 +41,7 @@ $enable-flex:               false !default;
 $enable-rounded:            true !default;
 $enable-shadows:            false !default;
 $enable-gradients:          false !default;
-$enable-transitions:        false !default;
+$enable-transitions:        true !default;
 $enable-hover-media-query:  false !default;
 $enable-grid-classes:       true !default;
 $enable-print-styles:       true !default;

@@ -1,7 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto+Slab|Roboto:300');
+// Modules and Variables
+@import "modules/effects";
+@import "modules/variables";
+@import "modules/fonts";
 
-@import "partials/variables";
-
+// Bootstrap
 @import "./../bower_components/bootstrap/scss/bootstrap";
 
-@import "partials/custom";
+// Partials
+@import "partials/base";
+@import "partials/buttons";
+@import "partials/cards";
+@import "partials/forms";
+@import "partials/navbar";
