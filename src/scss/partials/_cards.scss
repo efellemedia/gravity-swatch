@@ -1,0 +1,37 @@
+.card {
+    border: 0;
+}
+
+.card-outline-primary,
+.card-outline-success,
+.card-outline-info,
+.card-outline-warning,
+.card-outline-danger {
+    border: 1px solid;
+}
+
+.card-outline-primary {
+    border-color: $brand-primary !important;
+}
+
+.card-outline-success {
+    border-color: $brand-success !important;
+}
+
+.card-outline-info {
+    border-color: $brand-info !important;
+}
+
+.card-outline-warning {
+    border-color: $brand-warning !important;
+}
+
+.card-outline-danger {
+    border-color: $brand-danger !important;
+}
+
+.card-header {
+    color: rgba(255, 255, 255, 1);
+    padding-top: 1.4rem;
+    padding-bottom: 1.4rem;
+}

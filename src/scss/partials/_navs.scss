@@ -1,0 +1,56 @@
+.nav-tabs {
+    background-image: linear-gradient(#fff, #e0e0e0);
+    border: 0;
+
+    .nav-item + .nav-item {
+        margin-left: 0;
+    }
+
+    .nav-link,
+    .nav-link:focus {
+        padding: 1.4rem;
+        margin-right: 0;
+        background-color: transparent;
+        border: none;
+        color: $body-color;
+        transition: all 0.2s;
+
+        &:hover {
+            background-color: transparent;
+            color: $brand-primary;
+        }
+    }
+
+    .nav-link.active,
+    .nav-link.active:focus {
+        border: none;
+        color: $brand-primary;
+        background-color: #fff;
+
+        &:hover {
+            border: none;
+            color: $brand-primary;
+            background-color: #fff;
+        }
+    }
+
+    &.nav-justified {
+        .nav-link,
+        .nav-link:hover,
+        .nav-link:focus,
+        .nav-link.active,
+        .nav-link.active:hover,
+        .nav-link.active:focus {
+            border: none;
+        }
+    }
+
+    .dropdown-menu {
+        margin-top: 0;
+    }
+}
+
+.dropdown-menu {
+    margin-top: 0;
+    border: none;
+}
