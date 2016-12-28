@@ -2,8 +2,11 @@ label {
     font-weight: normal;
 }
 
-textarea, input, button {
-    outline: none;
+:focus,
+:active {
+    outline: none !important;
+    outline-color: transparent !important;
+    outline-style: none;
 }
 
 textarea,
