@@ -8,3 +8,13 @@ bower install
 
 npm run dev
 ```
+
+## Utilities
+
+The following utility classes were added as part of this swatch theme.
+
+### `bg-white`
+
+```
+<div class="bg-white">Cras mattis consectetur purus sit amet fermentum.</div>
+```
