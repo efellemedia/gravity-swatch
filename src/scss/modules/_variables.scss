@@ -25,7 +25,7 @@ $gray-light:                #818a91 !default;
 $gray-lighter:              #eceeef !default;
 $gray-lightest:             #f7f7f9 !default;
 
-$brand-primary:             #ff6f00;
+$brand-primary:             #ff6600;
 $brand-success:             #4caf50;
 $brand-info:                #00bcd4;
 $brand-warning:             #9c27b0;
@@ -37,7 +37,7 @@ $brand-inverse:             $gray-dark !default;
 //
 // Quickly modify global styling by enabling or disabling optional features.
 
-$enable-flex:               true !default;
+$enable-flex:               false !default;
 $enable-rounded:            true !default;
 $enable-shadows:            false !default;
 $enable-gradients:          false !default;
@@ -47,13 +47,24 @@ $enable-grid-classes:       true !default;
 $enable-print-styles:       true !default;
 
 
+// Header
+$header-height: 70px;
+
+// Footer
+$footer-height: 110px;
+
+
+// Sidebar
+$sidebar-width: 300px;
+
+
 // Spacing
 //
 // Control the default styling of most Bootstrap elements by modifying these
 // variables. Mostly focused on spacing.
 // You can add more entries to the $spacers map, should you need more variation.
 
-$spacer:   2rem !default;
+$spacer:   1rem !default;
 $spacer-x: $spacer !default;
 $spacer-y: $spacer !default;
 $spacers: (
@@ -244,8 +255,8 @@ $table-border-color:            $gray-lighter !default;
 //
 // For each of Bootstrap's buttons, define text, background and border color.
 
-$btn-padding-x:                  1rem !default;
-$btn-padding-y:                  1rem !default;
+$btn-padding-x:                  .6rem !default;
+$btn-padding-y:                  .6rem !default;
 $btn-line-height:                1.25 !default;
 $btn-font-weight:                normal !default;
 $btn-box-shadow:                 inset 0 1px 0 rgba(255,255,255,.15), 0 1px 1px rgba(0,0,0,.075) !default;

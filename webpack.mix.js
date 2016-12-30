@@ -11,19 +11,8 @@ let mix = require('laravel-mix').mix;
  |
  */
 
-mix.js('src/js/gravity.js', 'dist/js')
-    // .copy('bower_components/font-awesome/fonts', 'dist/css/fonts') // Doesn't fucking work!?
-    .sass('src/scss/gravity.scss', 'dist/css');
+mix.setPublicPath(__dirname + "/dist")
 
-// Full API
-// mix.js(src, output);
-// mix.extract(vendorLibs);
-// mix.sass(src, output);
-// mix.less(src, output);
-// mix.combine(files, destination);
-// mix.copy(from, to);
-// mix.minify(file);
-// mix.sourceMaps(); // Enable sourcemaps
-// mix.version(); // Enable versioning.
-// mix.disableNotifications();
-// mix.setCacheDirectory('some/folder');
+mix.js('src/js/gravity.js', 'js')
+    .sass('src/scss/gravity.scss', 'css')
+    .sourceMaps();

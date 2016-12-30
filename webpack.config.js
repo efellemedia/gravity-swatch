@@ -15,9 +15,21 @@ var plugins = require('laravel-mix').plugins;
  |
  */
 
-require('./webpack.mix');
-
 Mix.finalize();
+
+
+/*
+ |--------------------------------------------------------------------------
+ | Webpack Context
+ |--------------------------------------------------------------------------
+ |
+ | This prop will determine the appropriate context, when running Webpack.
+ | Since you have the option of publishing this webpack.config.js file
+ | to your project root, we will dynamically set the path for you.
+ |
+ */
+
+module.exports.context = Mix.contextPath();
 
 
 /*
@@ -73,9 +85,9 @@ module.exports.module = {
             options: {
                 loaders: {
                     js: 'babel-loader' + Mix.babelConfig()
-                  },
-                  
-                  postcss: [
+                },
+
+                postcss: [
                     require('autoprefixer')
                 ]
             }
@@ -99,7 +111,7 @@ module.exports.module = {
             test: /\.(woff2?|ttf|eot|svg)$/,
             loader: 'file-loader',
             options: {
-                name: path.relative(__dirname, './fonts/[name].[ext]?[hash]')
+                name: '/fonts/[name].[ext]?[hash]'
             }
         }
     ]
@@ -112,7 +124,7 @@ if (Mix.sass) {
         loader: plugins.ExtractTextPlugin.extract({
             fallbackLoader: 'style-loader',
             loader: [
-                'css-loader', 'postcss-loader', 
+                'css-loader', 'postcss-loader',
                 'resolve-url-loader', 'sass-loader?sourceMap'
             ]
         })
@@ -158,7 +170,7 @@ module.exports.resolve = {
  | Stats
  |--------------------------------------------------------------------------
  |
- | By default, Webpack spits a lot of information out to the terminal, 
+ | By default, Webpack spits a lot of information out to the terminal,
  | each you time you compile. Let's keep things a bit more minimal
  | and hide a few of those bits and pieces. Adjust as you wish.
  |
@@ -171,7 +183,7 @@ module.exports.stats = {
     children: false
 };
 
-module.exports.performance = { hints: Mix.inProduction };
+module.exports.performance = { hints: false};
 
 
 
@@ -212,7 +224,7 @@ module.exports.devServer = {
  | Plugins
  |--------------------------------------------------------------------------
  |
- | Lastly, we'll register a number of plugins to extend and configure 
+ | Lastly, we'll register a number of plugins to extend and configure
  | Webpack. To get you started, we've included a handful of useful
  | extensions, for versioning, OS notifications, and much more.
  |
@@ -239,11 +251,25 @@ module.exports.plugins.push(
 );
 
 
+module.exports.plugins.push(
+    new webpack.LoaderOptionsPlugin({
+        minimize: Mix.inProduction,
+        options: {
+            postcss: [
+                require('autoprefixer')
+            ],
+            context: __dirname,
+            output: { path: './' }
+        }
+    })
+);
+
+
 if (Mix.versioning.enabled) {
     Mix.versioning.record();
 
     module.exports.plugins.push(
-        new plugins.WebpackOnBuildPlugin(stats => {
+        new plugins.WebpackOnBuildPlugin(() => {
             Mix.versioning.prune(Mix.publicPath);
         })
     );
@@ -252,7 +278,7 @@ if (Mix.versioning.enabled) {
 
 if (Mix.combine || Mix.minify) {
     module.exports.plugins.push(
-        new plugins.WebpackOnBuildPlugin(stats => {
+        new plugins.WebpackOnBuildPlugin(() => {
             Mix.concatenateAll().minifyAll();
         })
     );
@@ -296,19 +322,8 @@ if (Mix.inProduction) {
 
         new webpack.optimize.UglifyJsPlugin({
             sourceMap: true,
-            compress: { 
-                warnings: false 
-            }
-        }),
-
-        new webpack.LoaderOptionsPlugin({
-            minimize: true,
-            options: {
-                postcss: [ 
-                    require('autoprefixer')
-                ],
-                context: __dirname,
-                output: { path: './' }
+            compress: {
+                warnings: false
             }
         })
     ]);

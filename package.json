@@ -8,11 +8,11 @@
     "dev": "cross-env NODE_ENV=development webpack --watch --progress --hide-modules",
     "hmr": "cross-env NODE_ENV=development webpack-dev-server --inline --hot",
     "production": "cross-env NODE_ENV=production webpack --progress --hide-modules"
-},
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "laravel-mix": "^0.2.0"
+    "laravel-mix": "^0.2.5"
   }
 }
