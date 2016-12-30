@@ -2848,7 +2848,7 @@ select.form-control-lg:not([size]):not([multiple]),
 .btn {
   display: inline-block;
   font-weight: normal;
-  line-height: 1.25;
+  line-height: 1.1;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -2858,7 +2858,7 @@ select.form-control-lg:not([size]):not([multiple]),
       -ms-user-select: none;
           user-select: none;
   border: 1px solid transparent;
-  padding: 0.6rem 0.6rem;
+  padding: 0.9rem 0.9rem;
   font-size: 1rem;
   border-radius: 0;
 }
@@ -3909,8 +3909,8 @@ tbody.collapse.in {
 }
 
 .btn + .dropdown-toggle-split {
-  padding-right: 0.45rem;
-  padding-left: 0.45rem;
+  padding-right: 0.675rem;
+  padding-left: 0.675rem;
 }
 
 .btn + .dropdown-toggle-split::after {
@@ -4552,8 +4552,8 @@ tbody.collapse.in {
 
 .navbar-brand {
   float: left;
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
+  padding-top: 1px;
+  padding-bottom: 1px;
   margin-right: 1rem;
   font-size: 1.25rem;
   line-height: inherit;
@@ -10947,6 +10947,7 @@ code {
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
+  font-size: 0.9rem;
 }
 
 .btn-link {
@@ -11085,6 +11086,10 @@ fieldset[disabled] .btn-secondary:focus {
   .content {
     margin-left: 300px;
   }
+}
+
+.container-content {
+  padding: 30px 20px;
 }
 
 label {
@@ -11544,7 +11549,6 @@ input[type="checkbox"]:disabled:checked:after,
 
 .sidebar-brand {
   height: 150px;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
   background-color: #f7f7f9;
 }
 
@@ -11565,7 +11569,7 @@ input[type="checkbox"]:disabled:checked:after,
     display: block;
     overflow-x: hidden;
     overflow-y: auto;
-    background-color: #ff6600;
+    background-color: #fff;
     width: 300px;
     height: calc(100%);
   }
@@ -11573,26 +11577,27 @@ input[type="checkbox"]:disabled:checked:after,
 
 .nav-sidebar > li > a {
   color: #47474f;
-  padding: 14px 20px 14px 52px;
+  padding: 16px 20px 14px 62px;
   display: block;
-  font-weight: 500;
+  font-weight: bolder;
+  font-size: 1.05rem;
   position: relative;
 }
 
 .nav-sidebar > li > a > span {
   position: absolute;
-  left: 16px;
-  font-size: 20px;
+  left: 20px;
+  font-size: 1.5rem;
   top: 0;
   width: 25px;
   text-align: center;
-  padding: 8px 0;
+  padding: 10px 0;
 }
 
 .nav-sidebar a:hover {
   background-color: #e65c00 !important;
-  text-decoration: none;
   color: #f7f7f9;
+  text-decoration: none;
 }
 
 .table-hover > tbody > tr,
