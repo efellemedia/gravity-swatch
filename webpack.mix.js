@@ -14,4 +14,7 @@ let mix = require('laravel-mix').mix;
 mix.setPublicPath(__dirname + "/dist")
 
 mix.js('src/js/gravity.js', 'js')
-    .sass('src/scss/gravity.scss', 'css');
+    .sass('src/scss/gravity.scss', 'css')
+    .copy(__dirname + '/dist/css', __dirname + '/docs/assets/css')
+    .copy(__dirname + '/dist/img', __dirname + '/docs/assets/img')
+    .copy(__dirname + '/dist/js', __dirname + '/docs/assets/js');

@@ -111,7 +111,7 @@ module.exports.module = {
             test: /\.(woff2?|ttf|eot|svg)$/,
             loader: 'file-loader',
             options: {
-                name: '/fonts/[name].[ext]?[hash]'
+                name: 'fonts/[name].[ext]?[hash]'
             }
         }
     ]
@@ -237,7 +237,7 @@ if (Mix.notifications) {
     module.exports.plugins.push(
         new plugins.WebpackNotifierPlugin({
             title: 'Laravel Mix',
-            alwaysNotify: true,
+            alwaysNotify: false,
             contentImage: 'node_modules/laravel-mix/icons/laravel.png'
         })
     );
