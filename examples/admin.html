@@ -17,11 +17,47 @@
         <div class="container-fluid container-sidebar" id="root">
             <div class="row">
                 <ui-sidebar>
-                    <img slot="logo" src="./../dist/img/logo_text.svg">
+                    <img slot="logo" src="./../dist/img/logo.svg" class="logo">
+                    <img slot="logo" src="./../dist/img/logo_small.png" class="logo-small">
 
-                    <ui-sidebar-item href="admin">
+                    <ui-sidebar-item href="#">
                         <i slot="icon" class="fa fa-dashboard fa-fw"></i>
                         <template slot="text">Dashboard</template>
+                    </ui-sidebar-item>
+
+                    <ui-sidebar-item href="#">
+                        <i slot="icon" class="fa fa-pencil fa-fw"></i>
+                        <template slot="text">Content</template>
+                    </ui-sidebar-item>
+
+                    <ui-sidebar-item href="#">
+                        <i slot="icon" class="fa fa-sitemap fa-fw"></i>
+                        <template slot="text">Organize</template>
+                    </ui-sidebar-item>
+
+                    <ui-sidebar-item href="#">
+                        <i slot="icon" class="fa fa-search fa-fw"></i>
+                        <template slot="text">SEO</template>
+                    </ui-sidebar-item>
+
+                    <ui-sidebar-item href="#">
+                        <i slot="icon" class="fa fa-users fa-fw"></i>
+                        <template slot="text">Users</template>
+                    </ui-sidebar-item>
+
+                    <ui-sidebar-item href="#">
+                        <i slot="icon" class="fa fa-send fa-fw"></i>
+                        <template slot="text">Forms</template>
+                    </ui-sidebar-item>
+
+                    <ui-sidebar-item href="#">
+                        <i slot="icon" class="fa fa-paint-brush fa-fw"></i>
+                        <template slot="text">Themes</template>
+                    </ui-sidebar-item>
+
+                    <ui-sidebar-item href="#">
+                        <i slot="icon" class="fa fa-rocket fa-fw"></i>
+                        <template slot="text">Operations</template>
                     </ui-sidebar-item>
 
                 </ui-sidebar>

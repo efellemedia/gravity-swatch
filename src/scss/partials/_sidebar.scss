@@ -19,6 +19,24 @@
         &.is-collapsed {
             width: 90px !important;
 
+            .sidebar-brand {
+
+                .logo {
+                    visibility: hidden;
+                    opacity: 0;
+                }
+
+                .logo-small {
+                    position: absolute;
+                    visibility: visible;
+                    opacity: 1;
+                    width: 60px;
+                    top: 0;
+                    padding-top: 45px;
+                    margin-left: 15px;
+                }
+            }
+
             .sidebar-item-text {
                 opacity: 0;
             }
@@ -44,7 +62,7 @@
                     height: 60px;
                     text-align: center;
                     padding-top: 20px;
-                    font-size: .8rem;
+                    font-size: .9rem;
                     color: $gray-lightest;
                 }
 
@@ -61,11 +79,18 @@
             height: 150px;
             background-color: $gray-lightest;
 
-            img {
+            > .logo {
                 padding-top: 51px;
                 width: 200px;
                 margin: auto;
                 display: block;
+                visibility: visible;;
+                opacity: 1;
+            }
+
+            > .logo-small {
+                visibility: hidden;
+                opacity: 0;
             }
         }
     }
