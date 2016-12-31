@@ -1,9 +1,18 @@
 <template>
     <li>
-        <a :href="href" :class="{ hover: hover }" @mouseover="hover = true" @mouseout="hover = false">
-            <span class="sidebar-item-icon"><slot name="icon"></slot></span>
-            <span class="sidebar-item-text"><slot name="text"></slot></span>
+        <a
+            :href="(hasChildren ? '#' : href)"
+            :class="{ hover: hover }"
+            @mouseover="hover = true"
+            @mouseout="hover = false">
+                <span class="sidebar-item-icon"><slot name="icon"></slot></span>
+                <span class="sidebar-item-text"><slot name="text"></slot></span>
+                <span class="sidebar-item-arrow" v-if="hasChildren" v-show="!sidebarCollapsed"></span>
         </a>
+
+        <ul class="sidebar-item-children" v-if="hasChildren" v-show="!sidebarCollapsed">
+            <slot name="children"></slot>
+        </ul>
     </li>
 </template>
 
@@ -13,8 +22,22 @@
 
         data: function () {
             return {
-                hover: false
+                hover: false,
+                hasChildren: false,
+                sidebarCollapsed: false
             }
+        },
+
+        mounted() {
+            if (this.$slots['children'] != undefined) {
+                this.hasChildren = true;
+            }
+        },
+
+        created() {
+            this.$events.listen('toggle-sidebar', () => {
+                this.sidebarCollapsed = !this.sidebarCollapsed;
+            });
         }
     }
 </script>

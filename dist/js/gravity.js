@@ -9227,14 +9227,38 @@ Object.defineProperty(exports, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ exports["default"] = {
     props: ['href'],
 
     data: function data() {
         return {
-            hover: false
+            hover: false,
+            hasChildren: false,
+            sidebarCollapsed: false
         };
+    },
+
+    mounted: function mounted() {
+        if (this.$slots['children'] != undefined) {
+            this.hasChildren = true;
+        }
+    },
+    created: function created() {
+        var _this = this;
+
+        this.$events.listen('toggle-sidebar', function () {
+            _this.sidebarCollapsed = !_this.sidebarCollapsed;
+        });
     }
 };
 
@@ -9292,7 +9316,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       hover: _vm.hover
     },
     attrs: {
-      "href": _vm.href
+      "href": (_vm.hasChildren ? '#' : _vm.href)
     },
     on: {
       "mouseover": function($event) {
@@ -9306,7 +9330,23 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "sidebar-item-icon"
   }, [_vm._t("icon")], 2), _vm._v(" "), _c('span', {
     staticClass: "sidebar-item-text"
-  }, [_vm._t("text")], 2)])])
+  }, [_vm._t("text")], 2), _vm._v(" "), (_vm.hasChildren) ? _c('span', {
+    directives: [{
+      name: "show",
+      rawName: "v-show",
+      value: (!_vm.sidebarCollapsed),
+      expression: "!sidebarCollapsed"
+    }],
+    staticClass: "sidebar-item-arrow"
+  }) : _vm._e()]), _vm._v(" "), (_vm.hasChildren) ? _c('ul', {
+    directives: [{
+      name: "show",
+      rawName: "v-show",
+      value: (!_vm.sidebarCollapsed),
+      expression: "!sidebarCollapsed"
+    }],
+    staticClass: "sidebar-item-children"
+  }, [_vm._t("children")], 2) : _vm._e()])
 },staticRenderFns: []}
 module.exports.render._withStripped = true
 if (false) {
