@@ -1,5 +1,5 @@
 <template>
-    <div class="sidebar" v-show="!collapsed">
+    <div class="sidebar" :class="{ 'is-collapsed': collapsed }">
         <div class="sidebar-brand">
             <slot name="logo"></slot>
         </div>
