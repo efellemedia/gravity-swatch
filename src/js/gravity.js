@@ -1,4 +1,5 @@
 import Vue from 'vue';
+import Quill from 'quill';
 import VueEvents from './events.js';
 import App from './components/App.vue';
 import UISidebar from './components/UISidebar.vue';
