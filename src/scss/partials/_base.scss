@@ -3,7 +3,7 @@ body {
     font-smoothing: antialiased;
 }
 
-#page-preloader {
+[v-cloak] {
     background: $body-bg;
     position: fixed;
     height: 100%;
