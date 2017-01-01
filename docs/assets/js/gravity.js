@@ -208,18 +208,28 @@ Object.defineProperty(exports, "__esModule", { value: true });
 //
 //
 //
-//
-//
 
 /* harmony default export */ exports["default"] = {
     props: ['href'],
 
     data: function data() {
         return {
-            hover: false,
             hasChildren: false,
+            showChildren: false,
             sidebarCollapsed: false
         };
+    },
+
+    methods: {
+        toggleChildren: function toggleChildren() {
+            if (this.hasChildren) {
+                var showChildren = !this.showChildren;
+
+                this.$events.fire('toggle-sidebar-children');
+
+                this.showChildren = showChildren;
+            }
+        }
     },
 
     mounted: function mounted() {
@@ -232,6 +242,11 @@ Object.defineProperty(exports, "__esModule", { value: true });
 
         this.$events.listen('toggle-sidebar', function () {
             _this.sidebarCollapsed = !_this.sidebarCollapsed;
+            _this.showChildren = false;
+        });
+
+        this.$events.listen('toggle-sidebar-children', function () {
+            _this.showChildren = false;
         });
     }
 };
@@ -884,19 +899,15 @@ if (false) {
 /***/ function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('li', [_c('a', {
-    class: {
-      hover: _vm.hover
-    },
+  return _c('li', {
+    staticClass: "sidebar-item"
+  }, [_c('a', {
     attrs: {
       "href": (_vm.hasChildren ? '#' : _vm.href)
     },
     on: {
-      "mouseover": function($event) {
-        _vm.hover = true
-      },
-      "mouseout": function($event) {
-        _vm.hover = false
+      "~click": function($event) {
+        _vm.toggleChildren($event)
       }
     }
   }, [_c('span', {
@@ -910,13 +921,16 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       value: (!_vm.sidebarCollapsed),
       expression: "!sidebarCollapsed"
     }],
-    staticClass: "sidebar-item-arrow"
+    staticClass: "sidebar-item-arrow",
+    class: {
+      'open': _vm.showChildren
+    }
   }) : _vm._e()]), _vm._v(" "), (_vm.hasChildren) ? _c('ul', {
     directives: [{
       name: "show",
       rawName: "v-show",
-      value: (!_vm.sidebarCollapsed),
-      expression: "!sidebarCollapsed"
+      value: (_vm.showChildren),
+      expression: "showChildren"
     }],
     staticClass: "sidebar-item-children"
   }, [_vm._t("children")], 2) : _vm._e()])

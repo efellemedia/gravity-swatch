@@ -15,7 +15,7 @@
 
     <body>
         <ui-preloader></ui-preloader>
-        
+
         <div class="container-fluid container-sidebar" id="root">
             <div class="row">
                 <ui-sidebar>
@@ -55,16 +55,52 @@
                     <ui-sidebar-item href="#">
                         <i slot="icon" class="fa fa-sitemap fa-fw"></i>
                         <template slot="text">Organize</template>
+
+                        <template slot="children">
+
+                            <ui-sidebar-item href="#">
+                                <template slot="text">Categories</template>
+                            </ui-sidebar-item>
+
+                            <ui-sidebar-item href="#">
+                                <template slot="text">Tags</template>
+                            </ui-sidebar-item>
+
+                        </template>
                     </ui-sidebar-item>
 
                     <ui-sidebar-item href="#">
                         <i slot="icon" class="fa fa-search fa-fw"></i>
                         <template slot="text">SEO</template>
+
+                        <template slot="children">
+
+                            <ui-sidebar-item href="#">
+                                <template slot="text">Redirects</template>
+                            </ui-sidebar-item>
+
+                        </template>
                     </ui-sidebar-item>
 
                     <ui-sidebar-item href="#">
                         <i slot="icon" class="fa fa-users fa-fw"></i>
                         <template slot="text">Users</template>
+
+                        <template slot="children">
+
+                            <ui-sidebar-item href="#">
+                                <template slot="text">Manage Users</template>
+                            </ui-sidebar-item>
+
+                            <ui-sidebar-item href="#">
+                                <template slot="text">Roles</template>
+                            </ui-sidebar-item>
+
+                            <ui-sidebar-item href="#">
+                                <template slot="text">Permissions</template>
+                            </ui-sidebar-item>
+
+                        </template>
                     </ui-sidebar-item>
 
                     <ui-sidebar-item href="#">
@@ -80,6 +116,38 @@
                     <ui-sidebar-item href="#">
                         <i slot="icon" class="fa fa-rocket fa-fw"></i>
                         <template slot="text">Operations</template>
+
+                        <template slot="children">
+
+                            <ui-sidebar-item href="#">
+                                <template slot="text">API</template>
+                            </ui-sidebar-item>
+
+                            <ui-sidebar-item href="#">
+                                <template slot="text">Backups</template>
+                            </ui-sidebar-item>
+
+                            <ui-sidebar-item href="#">
+                                <template slot="text">Fields</template>
+                            </ui-sidebar-item>
+
+                            <ui-sidebar-item href="#">
+                                <template slot="text">Logs</template>
+                            </ui-sidebar-item>
+
+                            <ui-sidebar-item href="#">
+                                <template slot="text">Matrix</template>
+                            </ui-sidebar-item>
+
+                            <ui-sidebar-item href="#">
+                                <template slot="text">Modules</template>
+                            </ui-sidebar-item>
+
+                            <ui-sidebar-item href="#">
+                                <template slot="text">Routes</template>
+                            </ui-sidebar-item>
+
+                        </template>
                     </ui-sidebar-item>
 
                 </ui-sidebar>

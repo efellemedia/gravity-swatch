@@ -1,5 +1,7 @@
 .card {
     border: 0;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
 .card-outline-primary,
@@ -32,6 +34,6 @@
 
 .card-header {
     color: rgba(255, 255, 255, 1);
-    padding-top: 1.4rem;
-    padding-bottom: 1.4rem;
+    padding: 1.2rem;
+    font-size: $card-header-font-size;
 }
