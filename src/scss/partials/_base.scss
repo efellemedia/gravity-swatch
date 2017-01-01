@@ -3,16 +3,6 @@ body {
     font-smoothing: antialiased;
 }
 
-[v-cloak] {
-    top: 0;
-    left: 0;
-    background: $body-bg;
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    z-index: 9999;
-}
-
 p {
     margin: 0 0 1em;
 }
@@ -30,6 +20,16 @@ a {
 code {
     background-color: transparent;
     color: $brand-primary;
+}
+
+[v-cloak] {
+    top: 0;
+    left: 0;
+    background: $body-bg;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 9999;
 }
 
 .main {

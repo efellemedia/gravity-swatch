@@ -111,9 +111,6 @@ module.exports = g;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_UISidebarItem_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__components_UISidebarItem_vue__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_UIToggleFullscreen_vue__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_UIToggleFullscreen_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__components_UIToggleFullscreen_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components_UIPreloader_vue__ = __webpack_require__(19);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components_UIPreloader_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8__components_UIPreloader_vue__);
-
 
 
 
@@ -130,7 +127,6 @@ new __WEBPACK_IMPORTED_MODULE_0_vue___default.a({
 
     components: {
         'app': __WEBPACK_IMPORTED_MODULE_3__components_App_vue___default.a,
-        'ui-preloader': __WEBPACK_IMPORTED_MODULE_8__components_UIPreloader_vue___default.a,
         'ui-sidebar': __WEBPACK_IMPORTED_MODULE_4__components_UISidebar_vue___default.a,
         'ui-sidebar-item': __WEBPACK_IMPORTED_MODULE_6__components_UISidebarItem_vue___default.a,
         'ui-sidebar-toggle': __WEBPACK_IMPORTED_MODULE_5__components_UISidebarToggle_vue___default.a,
@@ -180,29 +176,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 };
 
 /***/ },
-/* 4 */
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-//
-//
-//
-//
-
-/* harmony default export */ exports["default"] = {
-    data: function data() {
-        return {
-            pageLoaded: false
-        };
-    },
-
-    mounted: function mounted() {
-        this.pageLoaded = true;
-    }
-};
-
-/***/ },
+/* 4 */,
 /* 5 */
 /***/ function(module, exports, __webpack_require__) {
 
@@ -13316,50 +13290,7 @@ module.exports = __vue_exports__
 
 
 /***/ },
-/* 19 */
-/***/ function(module, exports, __webpack_require__) {
-
-var __vue_exports__, __vue_options__
-var __vue_styles__ = {}
-
-/* script */
-__vue_exports__ = __webpack_require__(4)
-
-/* template */
-var __vue_template__ = __webpack_require__(25)
-__vue_options__ = __vue_exports__ = __vue_exports__ || {}
-if (
-  typeof __vue_exports__.default === "object" ||
-  typeof __vue_exports__.default === "function"
-) {
-if (Object.keys(__vue_exports__).some(function (key) { return key !== "default" && key !== "__esModule" })) {console.error("named exports are not supported in *.vue files.")}
-__vue_options__ = __vue_exports__ = __vue_exports__.default
-}
-if (typeof __vue_options__ === "function") {
-  __vue_options__ = __vue_options__.options
-}
-__vue_options__.__file = "/Users/Kai/Code/gravity-swatch/src/js/components/UIPreloader.vue"
-__vue_options__.render = __vue_template__.render
-__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-
-/* hot reload */
-if (false) {(function () {
-  var hotAPI = require("vue-hot-reload-api")
-  hotAPI.install(require("vue"), false)
-  if (!hotAPI.compatible) return
-  module.hot.accept()
-  if (!module.hot.data) {
-    hotAPI.createRecord("data-v-365faa24", __vue_options__)
-  } else {
-    hotAPI.reload("data-v-365faa24", __vue_options__)
-  }
-})()}
-if (__vue_options__.functional) {console.error("[vue-loader] UIPreloader.vue: functional components are not supported and should be defined in plain js files using render functions.")}
-
-module.exports = __vue_exports__
-
-
-/***/ },
+/* 19 */,
 /* 20 */
 /***/ function(module, exports, __webpack_require__) {
 
@@ -13563,25 +13494,7 @@ if (false) {
 }
 
 /***/ },
-/* 25 */
-/***/ function(module, exports, __webpack_require__) {
-
-module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return (!_vm.pageLoaded) ? _c('div', {
-    attrs: {
-      "id": "page-preloader"
-    }
-  }) : _vm._e()
-},staticRenderFns: []}
-module.exports.render._withStripped = true
-if (false) {
-  module.hot.accept()
-  if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-365faa24", module.exports)
-  }
-}
-
-/***/ },
+/* 25 */,
 /* 26 */
 /***/ function(module, exports, __webpack_require__) {
 
