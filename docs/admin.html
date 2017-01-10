@@ -173,22 +173,26 @@
 
                     <nav class="navbar navbar-light bg-white">
                         <div class="container-fluid">
-                            <h1 class="navbar-brand">Create New Post</h1>
-
-                            <!-- <div class="form-inline float-xs-right">
-                                <a href="#" class="btn btn-primary"><i class="fa fa-plus fa-fw"></i>Create Blog Post</a>
-                            </div> -->
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
+                                <li class="breadcrumb-item">Blog</li>
+                            </ol>
                         </div>
                     </nav>
 
                     <div class="container-fluid container-content">
-                        <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
-                            <li class="breadcrumb-item">Blog</li>
-                        </ol>
-
                         <div class="row">
-                            <div class="col-lg-9">
+                            <div class="col-sm-9">
+                                <div class="card">
+                                    <div class="card-block">
+                                        <form>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control form-control-lg" placeholder="Title">
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+
                                 <div class="card">
                                     <div class="card-block">
                                         <form>
@@ -200,7 +204,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-lg-3">
+                            <div class="col-sm-3">
                                 <div class="card">
                                     <div class="card-header">
                                         Actions

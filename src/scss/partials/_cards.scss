@@ -1,5 +1,15 @@
 .card {
     border: 0;
+    margin-bottom: ($spacer-y * 2);
+}
+
+.card-block {
+    .nav-tabs {
+        margin-top: -15px;
+        margin-left: -15px;
+        margin-right: -15px;
+        margin-bottom: 15px;
+    }
 }
 
 .card-outline-primary,
