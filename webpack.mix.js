@@ -14,7 +14,9 @@ let mix = require('laravel-mix').mix;
 mix.setPublicPath(__dirname + '/dist/');
 
 mix.js('src/js/gravity.js', '../docs/assets/js')
-    .sass('src/scss/gravity.scss', 'css');
+    .sass('src/scss/gravity.scss', 'css')
+    .copy('dist/css/gravity.css', 'docs/assets/css/gravity.css')
+    .disableNotifications();
 
 // Full API
 // mix.js(src, output);
