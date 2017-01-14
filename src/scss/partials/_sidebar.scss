@@ -2,13 +2,14 @@
     display: none;
 
     @media (min-width: 768px) {
+        box-shadow: 20px 0 40px -2px rgba(0, 0, 0, 0.2);
         position: fixed;
         top: 0;
         bottom: 0;
         left: 0;
         z-index: 1000;
         display: block;
-        background-color: #fff;
+        background-color: $sidebar-bg;
         width: $sidebar-width;
         height: calc(100%);
 
@@ -20,7 +21,7 @@
 
 .sidebar-brand {
     height: 150px;
-    background-color: $gray-lightest;
+    background-color: $sidebar-brand-bg;
 
     > .logo {
         padding-top: 51px;
@@ -58,7 +59,7 @@
     position: relative;
 
     &.open {
-        background-color: $gray-lightest;
+        background-color: #ff0000;
     }
 
     .sidebar.is-collapsed & {
@@ -75,20 +76,22 @@
                 text-align: center;
                 padding-top: 20px;
                 font-size: .9rem;
-                color: $gray-lightest;
+                color: $sidebar-hover-color !important;
             }
 
             .sidebar-item-icon {
                 visibility: hidden;
                 opacity: 0;
                 left: 0;
-                color: $body-color;
+                color: $sidebar-color !important;
             }
         }
     }
 }
 
 .sidebar-item-text {
+    font-size: 0.9rem;
+
     .sidebar.is-collapsed & {
         display: none;
     }
@@ -97,11 +100,11 @@
 .sidebar-item-icon {
     position: absolute;
     left: 20px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     top: 0;
     width: 25px;
     text-align: center;
-    padding: 10px 0;
+    padding: 14px 0;
 
     .sidebar.is-collapsed & {
         left: 25px;
@@ -138,28 +141,35 @@
 
 .sidebar-item-children {
     list-style: none;
-    background-color: $gray-dark;
+    background-color: $sidebar-children-bg;
     padding: 0;
 
     .is-collapsed & {
         list-style: none;
-        background-color: $gray-dark;
+        background-color: $sidebar-children-bg;
         padding: 0;
         position: absolute;
         left: 90px;
         top: 0;
         width: 240px;
-        color: $gray-lightest;
+        color: $sidebar-children-color !important;
     }
 
     > .sidebar-item {
         > a {
             font-size: .9rem;
-            color: $gray-lightest;
+            color: $sidebar-children-color !important;
             display: block;
             position: relative;
             padding: 18px;
             padding-left: 70px;
+            text-decoration: none;
+        }
+
+        > a:hover {
+            background-color: $sidebar-children-hover-bg !important;
+            color: $sidebar-children-hover-color !important;
+            text-decoration: none;
         }
     }
 }
@@ -167,22 +177,23 @@
 .nav-sidebar {
     > li {
         a {
-            color: $body-color;
+            color: $sidebar-color !important;
             padding: 16px 20px 14px 62px;
             font-weight: bolder;
             font-size: 1.05rem;
             display: block;
             position: relative;
             height: 60px;
+            text-decoration: none;
         }
 
         a:hover {
-            background-color: darken($link-color, 5%) !important;
-            color: $gray-lightest;
+            background-color: $sidebar-hover-bg !important;
+            color: $sidebar-hover-color !important;
             text-decoration: none;
 
             .sidebar.is-collapsed & {
-                color: $body-color;
+                color: $sidebar-hover-color !important;
             }
         }
     }
