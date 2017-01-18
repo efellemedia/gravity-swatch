@@ -1,5 +1,6 @@
 @mixin btn($class, $bg, $color) {
   .btn-#{$class} {
+    @include ripple($color);
     font-size: $font-size-base * .9;
     font-weight: bold;
 
@@ -13,7 +14,7 @@
       cursor: pointer;
     }
 
-    @include ripple($color);
+
   }
 
   .btn-outline-#{$class} {
@@ -30,19 +31,17 @@
 
 .btn {
   border: 0;
+  font-size: ($font-size-base * .8);
+  padding: .8rem;
   text-transform: uppercase;
   transition: all .4s;
-  padding: .8rem;
-  font-size: ($font-size-base * .8);
 
   &.btn-sm {
-    // font-size: ($font-size-base * .8);
     padding: .5rem;
   }
 
   &.btn-lg {
-    //   font-size: ($font-size-base * .8);
-      padding: 1.2rem;
+    padding: 1.2rem;
   }
 
   &-link {
@@ -113,4 +112,9 @@
       margin-top: 0;
     }
   }
+}
+
+.dropwn-menu {
+  border: 1px solid $gray-light;
+  z-index: 9999;
 }
