@@ -1,92 +1,89 @@
 .sidebar {
-    display: none;
+  display: none;
 
-    @media (min-width: 768px) {
-        box-shadow: 20px 0 40px -2px rgba(0, 0, 0, 0.2);
-        position: fixed;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        z-index: 1000;
-        display: block;
-        background-color: $sidebar-bg;
-        width: $sidebar-width;
-        height: calc(100%);
+  @media (min-width: 768px) {
+    background-color: $sidebar-bg;
+    bottom: 0;
+    box-shadow: 20px 0 40px -2px rgba(0, 0, 0, .2);
+    display: block;
+    height: calc(100%);
+    left: 0;
+    overflow-y: scroll;
+    position: fixed;
+    top: 0;
+    width: $sidebar-width;
+    z-index: 1000;
 
-        &.is-collapsed {
-            width: 90px;
-        }
+    &.is-collapsed {
+      width: 90px;
     }
+  }
 }
 
 .sidebar-brand {
-    height: 150px;
-    background-color: $sidebar-brand-bg;
+  background-color: $sidebar-brand-bg;
+  height: 150px;
 
-    > .logo {
-        padding-top: 51px;
-        width: 200px;
-        margin: auto;
-        display: block;
-        visibility: visible;;
-        opacity: 1;
+  > .logo {
+    display: block;
+    margin: auto;
+    opacity: 1;
+    padding-top: 51px;
+    visibility: visible;
+    width: 200px;
+  }
+
+  > .logo-small {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .is-collapsed & {
+    .logo {
+      opacity: 0;
+      visibility: hidden;
     }
 
-    > .logo-small {
-        visibility: hidden;
-        opacity: 0;
+    .logo-small {
+      margin-left: 15px;
+      opacity: 1;
+      padding-top: 45px;
+      position: absolute;
+      top: 0;
+      visibility: visible;
+      width: 60px;
     }
-
-    .is-collapsed & {
-        .logo {
-            visibility: hidden;
-            opacity: 0;
-        }
-
-        .logo-small {
-            position: absolute;
-            visibility: visible;
-            opacity: 1;
-            width: 60px;
-            top: 0;
-            padding-top: 45px;
-            margin-left: 15px;
-        }
-    }
+  }
 }
 
 .sidebar-item {
-    position: relative;
+  position: relative;
 
-    &.open {
-        background-color: #ff0000;
+  .sidebar.is-collapsed & {
+    &:hover {
+      .sidebar-item-text {
+        color: $sidebar-hover-color !important;
+        display: block;
+        opacity: 1;
+        visibility: visible;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 90px;
+        height: 60px;
+        text-align: center;
+        padding-top: 20px;
+        font-size: .9rem;
+      }
+
+      .sidebar-item-icon {
+        visibility: hidden;
+        opacity: 0;
+        left: 0;
+        color: $sidebar-color !important;
+      }
     }
-
-    .sidebar.is-collapsed & {
-        &:hover {
-            .sidebar-item-text {
-                display: block;
-                opacity: 1;
-                visibility: visible;
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 90px;
-                height: 60px;
-                text-align: center;
-                padding-top: 20px;
-                font-size: .9rem;
-                color: $sidebar-hover-color !important;
-            }
-
-            .sidebar-item-icon {
-                visibility: hidden;
-                opacity: 0;
-                left: 0;
-                color: $sidebar-color !important;
-            }
-        }
-    }
+  }
 }
 
 .sidebar-item-text {
@@ -100,7 +97,7 @@
 .sidebar-item-icon {
     position: absolute;
     left: 20px;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     top: 0;
     width: 25px;
     text-align: center;
@@ -115,8 +112,8 @@
 
 .sidebar-item-arrow {
     &:before {
-        content: "\f067";
-        font-family: FontAwesome;
+        content: "\e92b";
+        font-family: 'fusion';
         font-style: normal;
         font-weight: normal;
         text-decoration: inherit;
@@ -130,7 +127,7 @@
     }
 
     &.open:before {
-        content: "\f00d";
+        content: "\e92a";
     }
 
     .sidebar.is-collapsed & {

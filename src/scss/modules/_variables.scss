@@ -2,7 +2,7 @@
 //
 // Quickly modify global styling by enabling or disabling optional features.
 
-$enable-rounded:            false !default;
+$enable-rounded:            true !default;
 
 // Colors
 //
@@ -17,9 +17,9 @@ $gray-lightest:             #f7f7f7 !default;
 
 // Reassign color vars to semantic color scheme
 $brand-primary:             #e26110;
+$brand-warning:             #febf00;
 $brand-success:             #4caf50;
 $brand-info:                #00bcd4;
-$brand-warning:             #9c27b0;
 $brand-danger:              #f44336;
 $brand-inverse:             $gray-dark !default;
 
@@ -58,7 +58,7 @@ $sidebar-children-hover-bg:     $sidebar-hover-bg;
 //
 // Settings for the `<body>` element.
 
-$body-bg: #f7f5f6 !default;
+$body-bg: #eee !default;
 
 // Breadcrumbs
 
