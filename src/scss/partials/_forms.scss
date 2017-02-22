@@ -134,19 +134,20 @@ input[type="radio"],
     &:before {
         position: absolute;
         left: 0;
-        top: 2px;
+        top: 0;
         background-color: $brand-primary;
         transform: scale(0);
     }
 
     &:after {
         position: relative;
-        top: -2px;
+        top: 0;
         border: 2px solid $gray;
     }
 
     &:checked:before {
         transform: scale(0.5);
+        background-color: #fff;
     }
 
     &:disabled:checked:before {
@@ -154,7 +155,7 @@ input[type="radio"],
     }
 
     &:checked:after {
-        border-color: $brand-primary;
+        border-color: #fff;
     }
 
     &:disabled:after,
@@ -194,7 +195,7 @@ input[type="checkbox"],
     &:checked:before {
         content: "";
         position: absolute;
-        top: 5px;
+        top: 2px;
         left: 6px;
         display: table;
         width: 6px;
