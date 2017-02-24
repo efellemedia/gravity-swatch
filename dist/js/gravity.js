@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "./";
 
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 25);
+/******/ 	return __webpack_require__(__webpack_require__.s = 28);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -71,20 +71,20 @@
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(26);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__events_js__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_App_vue__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__events_js__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_App_vue__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_App_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__components_App_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_UISidebar_vue__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_UISidebar_vue__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_UISidebar_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__components_UISidebar_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_UISidebarToggle_vue__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_UISidebarToggle_vue__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_UISidebarToggle_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__components_UISidebarToggle_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_UISidebarItem_vue__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_UISidebarItem_vue__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_UISidebarItem_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__components_UISidebarItem_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_UIToggleFullscreen_vue__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_UIToggleFullscreen_vue__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_UIToggleFullscreen_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__components_UIToggleFullscreen_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_UIPreloader_vue__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_UIPreloader_vue__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_UIPreloader_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__components_UIPreloader_vue__);
 
 
@@ -161,6 +161,29 @@ Object.defineProperty(exports, "__esModule", { value: true });
 //
 //
 //
+
+/* harmony default export */ exports["default"] = {
+    data: function data() {
+        return {
+            pageLoaded: false
+        };
+    },
+
+    mounted: function mounted() {
+        this.pageLoaded = true;
+    }
+};
+
+/***/ },
+/* 4 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+//
+//
+//
+//
 //
 //
 //
@@ -187,7 +210,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 };
 
 /***/ },
-/* 4 */
+/* 5 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -237,7 +260,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 };
 
 /***/ },
-/* 5 */
+/* 6 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -256,7 +279,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 };
 
 /***/ },
-/* 6 */
+/* 7 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -291,7 +314,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 };
 
 /***/ },
-/* 7 */
+/* 8 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -352,10 +375,10 @@ if (typeof window !== 'undefined' && window.Vue) {
 /* harmony default export */ exports["a"] = plugin;
 
 /***/ },
-/* 8 */
+/* 9 */
 /***/ function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(9)();
+exports = module.exports = __webpack_require__(10)();
 // imports
 
 
@@ -366,7 +389,7 @@ exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\
 
 
 /***/ },
-/* 9 */
+/* 10 */
 /***/ function(module, exports) {
 
 /*
@@ -422,7 +445,7 @@ module.exports = function() {
 
 
 /***/ },
-/* 10 */
+/* 11 */
 /***/ function(module, exports) {
 
 // shim for using process in browser
@@ -608,7 +631,7 @@ process.umask = function() { return 0; };
 
 
 /***/ },
-/* 11 */
+/* 12 */
 /***/ function(module, exports, __webpack_require__) {
 
 var __vue_exports__, __vue_options__
@@ -618,7 +641,7 @@ var __vue_styles__ = {}
 __vue_exports__ = __webpack_require__(2)
 
 /* template */
-var __vue_template__ = __webpack_require__(20)
+var __vue_template__ = __webpack_require__(22)
 __vue_options__ = __vue_exports__ = __vue_exports__ || {}
 if (
   typeof __vue_exports__.default === "object" ||
@@ -630,7 +653,7 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "/Users/Kai/Code/gravity-swatch/src/js/components/App.vue"
+__vue_options__.__file = "/Users/cameron/Code/gravity-swatch/src/js/components/App.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 
@@ -641,56 +664,12 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-b9fe9da6", __vue_options__)
+    hotAPI.createRecord("data-v-dc284dd6", __vue_options__)
   } else {
-    hotAPI.reload("data-v-b9fe9da6", __vue_options__)
+    hotAPI.reload("data-v-dc284dd6", __vue_options__)
   }
 })()}
 if (__vue_options__.functional) {console.error("[vue-loader] App.vue: functional components are not supported and should be defined in plain js files using render functions.")}
-
-module.exports = __vue_exports__
-
-
-/***/ },
-/* 12 */
-/***/ function(module, exports, __webpack_require__) {
-
-var __vue_exports__, __vue_options__
-var __vue_styles__ = {}
-
-/* script */
-__vue_exports__ = __webpack_require__(3)
-
-/* template */
-var __vue_template__ = __webpack_require__(16)
-__vue_options__ = __vue_exports__ = __vue_exports__ || {}
-if (
-  typeof __vue_exports__.default === "object" ||
-  typeof __vue_exports__.default === "function"
-) {
-if (Object.keys(__vue_exports__).some(function (key) { return key !== "default" && key !== "__esModule" })) {console.error("named exports are not supported in *.vue files.")}
-__vue_options__ = __vue_exports__ = __vue_exports__.default
-}
-if (typeof __vue_options__ === "function") {
-  __vue_options__ = __vue_options__.options
-}
-__vue_options__.__file = "/Users/Kai/Code/gravity-swatch/src/js/components/UISidebar.vue"
-__vue_options__.render = __vue_template__.render
-__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-
-/* hot reload */
-if (false) {(function () {
-  var hotAPI = require("vue-hot-reload-api")
-  hotAPI.install(require("vue"), false)
-  if (!hotAPI.compatible) return
-  module.hot.accept()
-  if (!module.hot.data) {
-    hotAPI.createRecord("data-v-34212258", __vue_options__)
-  } else {
-    hotAPI.reload("data-v-34212258", __vue_options__)
-  }
-})()}
-if (__vue_options__.functional) {console.error("[vue-loader] UISidebar.vue: functional components are not supported and should be defined in plain js files using render functions.")}
 
 module.exports = __vue_exports__
 
@@ -703,10 +682,10 @@ var __vue_exports__, __vue_options__
 var __vue_styles__ = {}
 
 /* script */
-__vue_exports__ = __webpack_require__(4)
+__vue_exports__ = __webpack_require__(3)
 
 /* template */
-var __vue_template__ = __webpack_require__(18)
+var __vue_template__ = __webpack_require__(23)
 __vue_options__ = __vue_exports__ = __vue_exports__ || {}
 if (
   typeof __vue_exports__.default === "object" ||
@@ -718,7 +697,7 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "/Users/Kai/Code/gravity-swatch/src/js/components/UISidebarItem.vue"
+__vue_options__.__file = "/Users/cameron/Code/gravity-swatch/src/js/components/UIPreloader.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 
@@ -729,12 +708,12 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-3f3de2f2", __vue_options__)
+    hotAPI.createRecord("data-v-f8ae2a54", __vue_options__)
   } else {
-    hotAPI.reload("data-v-3f3de2f2", __vue_options__)
+    hotAPI.reload("data-v-f8ae2a54", __vue_options__)
   }
 })()}
-if (__vue_options__.functional) {console.error("[vue-loader] UISidebarItem.vue: functional components are not supported and should be defined in plain js files using render functions.")}
+if (__vue_options__.functional) {console.error("[vue-loader] UIPreloader.vue: functional components are not supported and should be defined in plain js files using render functions.")}
 
 module.exports = __vue_exports__
 
@@ -747,10 +726,10 @@ var __vue_exports__, __vue_options__
 var __vue_styles__ = {}
 
 /* script */
-__vue_exports__ = __webpack_require__(5)
+__vue_exports__ = __webpack_require__(4)
 
 /* template */
-var __vue_template__ = __webpack_require__(17)
+var __vue_template__ = __webpack_require__(21)
 __vue_options__ = __vue_exports__ = __vue_exports__ || {}
 if (
   typeof __vue_exports__.default === "object" ||
@@ -762,7 +741,7 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "/Users/Kai/Code/gravity-swatch/src/js/components/UISidebarToggle.vue"
+__vue_options__.__file = "/Users/cameron/Code/gravity-swatch/src/js/components/UISidebar.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 
@@ -773,12 +752,12 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-3d79c170", __vue_options__)
+    hotAPI.createRecord("data-v-8771ee88", __vue_options__)
   } else {
-    hotAPI.reload("data-v-3d79c170", __vue_options__)
+    hotAPI.reload("data-v-8771ee88", __vue_options__)
   }
 })()}
-if (__vue_options__.functional) {console.error("[vue-loader] UISidebarToggle.vue: functional components are not supported and should be defined in plain js files using render functions.")}
+if (__vue_options__.functional) {console.error("[vue-loader] UISidebar.vue: functional components are not supported and should be defined in plain js files using render functions.")}
 
 module.exports = __vue_exports__
 
@@ -790,11 +769,8 @@ module.exports = __vue_exports__
 var __vue_exports__, __vue_options__
 var __vue_styles__ = {}
 
-/* styles */
-__webpack_require__(22)
-
 /* script */
-__vue_exports__ = __webpack_require__(6)
+__vue_exports__ = __webpack_require__(5)
 
 /* template */
 var __vue_template__ = __webpack_require__(19)
@@ -809,7 +785,7 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "/Users/Kai/Code/gravity-swatch/src/js/components/UIToggleFullscreen.vue"
+__vue_options__.__file = "/Users/cameron/Code/gravity-swatch/src/js/components/UISidebarItem.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 
@@ -820,12 +796,12 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-6379fa67", __vue_options__)
+    hotAPI.createRecord("data-v-2c09746f", __vue_options__)
   } else {
-    hotAPI.reload("data-v-6379fa67", __vue_options__)
+    hotAPI.reload("data-v-2c09746f", __vue_options__)
   }
 })()}
-if (__vue_options__.functional) {console.error("[vue-loader] UIToggleFullscreen.vue: functional components are not supported and should be defined in plain js files using render functions.")}
+if (__vue_options__.functional) {console.error("[vue-loader] UISidebarItem.vue: functional components are not supported and should be defined in plain js files using render functions.")}
 
 module.exports = __vue_exports__
 
@@ -834,33 +810,100 @@ module.exports = __vue_exports__
 /* 16 */
 /***/ function(module, exports, __webpack_require__) {
 
-module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
-    staticClass: "sidebar",
-    class: {
-      'is-collapsed': _vm.collapsed
-    }
-  }, [_c('div', {
-    staticClass: "sidebar-brand"
-  }, [_vm._t("logo")], 2), _vm._v(" "), _c('ul', {
-    staticClass: "nav nav-sidebar"
-  }, [_vm._t("default")], 2)])
-},staticRenderFns: []}
-module.exports.render._withStripped = true
-if (false) {
-  module.hot.accept()
-  if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-34212258", module.exports)
-  }
+var __vue_exports__, __vue_options__
+var __vue_styles__ = {}
+
+/* script */
+__vue_exports__ = __webpack_require__(6)
+
+/* template */
+var __vue_template__ = __webpack_require__(20)
+__vue_options__ = __vue_exports__ = __vue_exports__ || {}
+if (
+  typeof __vue_exports__.default === "object" ||
+  typeof __vue_exports__.default === "function"
+) {
+if (Object.keys(__vue_exports__).some(function (key) { return key !== "default" && key !== "__esModule" })) {console.error("named exports are not supported in *.vue files.")}
+__vue_options__ = __vue_exports__ = __vue_exports__.default
 }
+if (typeof __vue_options__ === "function") {
+  __vue_options__ = __vue_options__.options
+}
+__vue_options__.__file = "/Users/cameron/Code/gravity-swatch/src/js/components/UISidebarToggle.vue"
+__vue_options__.render = __vue_template__.render
+__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-372ca9a0", __vue_options__)
+  } else {
+    hotAPI.reload("data-v-372ca9a0", __vue_options__)
+  }
+})()}
+if (__vue_options__.functional) {console.error("[vue-loader] UISidebarToggle.vue: functional components are not supported and should be defined in plain js files using render functions.")}
+
+module.exports = __vue_exports__
+
 
 /***/ },
 /* 17 */
 /***/ function(module, exports, __webpack_require__) {
 
+var __vue_exports__, __vue_options__
+var __vue_styles__ = {}
+
+/* styles */
+__webpack_require__(25)
+
+/* script */
+__vue_exports__ = __webpack_require__(7)
+
+/* template */
+var __vue_template__ = __webpack_require__(18)
+__vue_options__ = __vue_exports__ = __vue_exports__ || {}
+if (
+  typeof __vue_exports__.default === "object" ||
+  typeof __vue_exports__.default === "function"
+) {
+if (Object.keys(__vue_exports__).some(function (key) { return key !== "default" && key !== "__esModule" })) {console.error("named exports are not supported in *.vue files.")}
+__vue_options__ = __vue_exports__ = __vue_exports__.default
+}
+if (typeof __vue_options__ === "function") {
+  __vue_options__ = __vue_options__.options
+}
+__vue_options__.__file = "/Users/cameron/Code/gravity-swatch/src/js/components/UIToggleFullscreen.vue"
+__vue_options__.render = __vue_template__.render
+__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-062d057f", __vue_options__)
+  } else {
+    hotAPI.reload("data-v-062d057f", __vue_options__)
+  }
+})()}
+if (__vue_options__.functional) {console.error("[vue-loader] UIToggleFullscreen.vue: functional components are not supported and should be defined in plain js files using render functions.")}
+
+module.exports = __vue_exports__
+
+
+/***/ },
+/* 18 */
+/***/ function(module, exports, __webpack_require__) {
+
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('i', {
-    staticClass: "fa fa-bars fa-fw toggle-sidebar",
+    staticClass: "fa fa-expand fa-fw",
     staticStyle: {
       "cursor": "pointer"
     },
@@ -875,12 +918,12 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-3d79c170", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-062d057f", module.exports)
   }
 }
 
 /***/ },
-/* 18 */
+/* 19 */
 /***/ function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -925,17 +968,17 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-3f3de2f2", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-2c09746f", module.exports)
   }
 }
 
 /***/ },
-/* 19 */
+/* 20 */
 /***/ function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('i', {
-    staticClass: "fa fa-expand fa-fw",
+    staticClass: "fa fa-bars fa-fw toggle-sidebar",
     staticStyle: {
       "cursor": "pointer"
     },
@@ -950,12 +993,36 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-6379fa67", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-372ca9a0", module.exports)
   }
 }
 
 /***/ },
-/* 20 */
+/* 21 */
+/***/ function(module, exports, __webpack_require__) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
+    staticClass: "sidebar",
+    class: {
+      'is-collapsed': _vm.collapsed
+    }
+  }, [_c('div', {
+    staticClass: "sidebar-brand"
+  }, [_vm._t("logo")], 2), _vm._v(" "), _c('ul', {
+    staticClass: "nav nav-sidebar"
+  }, [_vm._t("default")], 2)])
+},staticRenderFns: []}
+module.exports.render._withStripped = true
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+     require("vue-hot-reload-api").rerender("data-v-8771ee88", module.exports)
+  }
+}
+
+/***/ },
+/* 22 */
 /***/ function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -968,12 +1035,31 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-b9fe9da6", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-dc284dd6", module.exports)
   }
 }
 
 /***/ },
-/* 21 */
+/* 23 */
+/***/ function(module, exports, __webpack_require__) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return (!_vm.pageLoaded) ? _c('div', {
+    attrs: {
+      "id": "page-preloader"
+    }
+  }) : _vm._e()
+},staticRenderFns: []}
+module.exports.render._withStripped = true
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+     require("vue-hot-reload-api").rerender("data-v-f8ae2a54", module.exports)
+  }
+}
+
+/***/ },
+/* 24 */
 /***/ function(module, exports) {
 
 /*
@@ -1195,23 +1281,23 @@ function applyToTag(styleElement, obj) {
 
 
 /***/ },
-/* 22 */
+/* 25 */
 /***/ function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(8);
+var content = __webpack_require__(9);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // add the styles to the DOM
-var update = __webpack_require__(21)(content, {});
+var update = __webpack_require__(24)(content, {});
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!./../../../node_modules/css-loader/index.js!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=data-v-6379fa67!./../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./UIToggleFullscreen.vue", function() {
-			var newContent = require("!!./../../../node_modules/css-loader/index.js!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=data-v-6379fa67!./../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./UIToggleFullscreen.vue");
+		module.hot.accept("!!./../../../node_modules/css-loader/index.js!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=data-v-062d057f!./../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./UIToggleFullscreen.vue", function() {
+			var newContent = require("!!./../../../node_modules/css-loader/index.js!./../../../node_modules/vue-loader/lib/style-rewriter.js?id=data-v-062d057f!./../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./UIToggleFullscreen.vue");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -1221,7 +1307,7 @@ if(false) {
 }
 
 /***/ },
-/* 23 */
+/* 26 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9741,10 +9827,10 @@ Vue$3.compile = compileToFunctions;
 
 module.exports = Vue$3;
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(10), __webpack_require__(24)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(11), __webpack_require__(27)))
 
 /***/ },
-/* 24 */
+/* 27 */
 /***/ function(module, exports) {
 
 var g;
@@ -9769,105 +9855,12 @@ module.exports = g;
 
 
 /***/ },
-/* 25 */
+/* 28 */
 /***/ function(module, exports, __webpack_require__) {
 
 __webpack_require__(0);
 module.exports = __webpack_require__(1);
 
-
-/***/ },
-/* 26 */,
-/* 27 */,
-/* 28 */,
-/* 29 */,
-/* 30 */,
-/* 31 */,
-/* 32 */,
-/* 33 */
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-//
-//
-//
-//
-
-/* harmony default export */ exports["default"] = {
-    data: function data() {
-        return {
-            pageLoaded: false
-        };
-    },
-
-    mounted: function mounted() {
-        this.pageLoaded = true;
-    }
-};
-
-/***/ },
-/* 34 */
-/***/ function(module, exports, __webpack_require__) {
-
-var __vue_exports__, __vue_options__
-var __vue_styles__ = {}
-
-/* script */
-__vue_exports__ = __webpack_require__(33)
-
-/* template */
-var __vue_template__ = __webpack_require__(35)
-__vue_options__ = __vue_exports__ = __vue_exports__ || {}
-if (
-  typeof __vue_exports__.default === "object" ||
-  typeof __vue_exports__.default === "function"
-) {
-if (Object.keys(__vue_exports__).some(function (key) { return key !== "default" && key !== "__esModule" })) {console.error("named exports are not supported in *.vue files.")}
-__vue_options__ = __vue_exports__ = __vue_exports__.default
-}
-if (typeof __vue_options__ === "function") {
-  __vue_options__ = __vue_options__.options
-}
-__vue_options__.__file = "/Users/Kai/Code/gravity-swatch/src/js/components/UIPreloader.vue"
-__vue_options__.render = __vue_template__.render
-__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-
-/* hot reload */
-if (false) {(function () {
-  var hotAPI = require("vue-hot-reload-api")
-  hotAPI.install(require("vue"), false)
-  if (!hotAPI.compatible) return
-  module.hot.accept()
-  if (!module.hot.data) {
-    hotAPI.createRecord("data-v-365faa24", __vue_options__)
-  } else {
-    hotAPI.reload("data-v-365faa24", __vue_options__)
-  }
-})()}
-if (__vue_options__.functional) {console.error("[vue-loader] UIPreloader.vue: functional components are not supported and should be defined in plain js files using render functions.")}
-
-module.exports = __vue_exports__
-
-
-/***/ },
-/* 35 */
-/***/ function(module, exports, __webpack_require__) {
-
-module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return (!_vm.pageLoaded) ? _c('div', {
-    attrs: {
-      "id": "page-preloader"
-    }
-  }) : _vm._e()
-},staticRenderFns: []}
-module.exports.render._withStripped = true
-if (false) {
-  module.hot.accept()
-  if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-365faa24", module.exports)
-  }
-}
 
 /***/ }
 /******/ ]);
