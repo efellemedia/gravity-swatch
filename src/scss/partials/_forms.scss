@@ -134,9 +134,13 @@ input[type="radio"],
     &:before {
         position: absolute;
         left: 0;
-        top: 0;
+        top: 4px;
         background-color: $brand-primary;
         transform: scale(0);
+    }
+
+    .btn &:before {
+        top: 0;
     }
 
     &:after {
@@ -147,6 +151,10 @@ input[type="radio"],
 
     &:checked:before {
         transform: scale(0.5);
+        background-color: $brand-primary;
+    }
+
+    .btn &:checked:before {
         background-color: #fff;
     }
 
@@ -155,6 +163,10 @@ input[type="radio"],
     }
 
     &:checked:after {
+        border-color: $brand-primary;
+    }
+
+    .btn &:checked:after {
         border-color: #fff;
     }
 
@@ -195,7 +207,7 @@ input[type="checkbox"],
     &:checked:before {
         content: "";
         position: absolute;
-        top: 2px;
+        top: 6px;
         left: 6px;
         display: table;
         width: 6px;
@@ -204,6 +216,10 @@ input[type="checkbox"],
         border-top-width: 0;
         border-left-width: 0;
         transform: rotate(45deg);
+    }
+
+    .btn &:checked:before {
+        top: 2px;
     }
 
     &:checked:after {
