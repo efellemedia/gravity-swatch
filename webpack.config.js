@@ -15,7 +15,7 @@ var plugins = require('laravel-mix').plugins;
  |
  */
 
-Mix.finalize();
+Mix.initialize();
 
 
 /*
@@ -29,7 +29,7 @@ Mix.finalize();
  |
  */
 
-module.exports.context = Mix.contextPath();
+module.exports.context = Mix.paths.root();
 
 
 /*
@@ -84,7 +84,9 @@ module.exports.module = {
             loader: 'vue-loader',
             options: {
                 loaders: {
-                    js: 'babel-loader' + Mix.babelConfig()
+                    js: 'babel-loader' + Mix.babelConfig(),
+                    scss: 'vue-style-loader!css-loader!sass-loader',
+                    sass: 'vue-style-loader!css-loader!sass-loader?indentedSyntax'
                 },
 
                 postcss: [
@@ -111,7 +113,7 @@ module.exports.module = {
             test: /\.(woff2?|ttf|eot|svg)$/,
             loader: 'file-loader',
             options: {
-                name: 'fonts/[name].[ext]?[hash]'
+                name: '/fonts/[name].[ext]?[hash]'
             }
         }
     ]
@@ -180,10 +182,11 @@ module.exports.stats = {
     hash: false,
     version: false,
     timings: false,
-    children: false
+    children: false,
+    errors: false
 };
 
-module.exports.performance = { hints: false};
+module.exports.performance = { hints: false };
 
 
 
@@ -230,28 +233,9 @@ module.exports.devServer = {
  |
  */
 
-module.exports.plugins = [];
+module.exports.plugins = [
+    new plugins.FriendlyErrorsWebpackPlugin(),
 
-
-if (Mix.notifications) {
-    module.exports.plugins.push(
-        new plugins.WebpackNotifierPlugin({
-            title: 'Laravel Mix',
-            alwaysNotify: false,
-            contentImage: 'node_modules/laravel-mix/icons/laravel.png'
-        })
-    );
-}
-
-
-module.exports.plugins.push(
-    function() {
-        this.plugin('done', stats => Mix.manifest.write(stats));
-    }
-);
-
-
-module.exports.plugins.push(
     new webpack.LoaderOptionsPlugin({
         minimize: Mix.inProduction,
         options: {
@@ -261,8 +245,23 @@ module.exports.plugins.push(
             context: __dirname,
             output: { path: './' }
         }
-    })
-);
+    }),
+
+    function() {
+        this.plugin('done', stats => Mix.manifest.write(stats));
+    },
+];
+
+
+if (Mix.notifications) {
+    module.exports.plugins.push(
+        new plugins.WebpackNotifierPlugin({
+            title: 'Laravel Mix',
+            alwaysNotify: true,
+            contentImage: 'node_modules/laravel-mix/icons/laravel.png'
+        })
+    );
+}
 
 
 if (Mix.versioning.enabled) {
@@ -328,3 +327,16 @@ if (Mix.inProduction) {
         })
     ]);
 }
+
+
+/*
+ |--------------------------------------------------------------------------
+ | Mix Finalizing
+ |--------------------------------------------------------------------------
+ |
+ | Now that we've declared the entirety of our Webpack configuration, the
+ | final step is to scan for any custom configuration in the Mix file.
+ | If mix.webpackConfig() is called, we'll merge it in, and build!
+ |
+ */
+Mix.finalize(module.exports);
