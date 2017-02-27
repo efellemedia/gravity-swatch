@@ -209,7 +209,7 @@ input[type="checkbox"],
     &:checked:before {
         content: "";
         position: absolute;
-        top: 6px;
+        top: 3px;
         left: 6px;
         display: table;
         width: 6px;
@@ -276,6 +276,11 @@ input[type="checkbox"],
         border-bottom: none;
         box-shadow: inset 0 -2px 0 $brand-success;
     }
+}
+
+.form-check-inline .form-check-label {
+    vertical-align: bottom;
+    input[type="checkbox"]:checked:before { top: 6px; }
 }
 
 // Remove the Bootstrap feedback styles for input addons

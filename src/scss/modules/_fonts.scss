@@ -132,6 +132,9 @@ $icon-user-male: "\e907";
   line-height: 1;
   text-rendering: auto;
   font-smoothing: antialiased;
+  .is-collapsed .sidebar-item & {
+    vertical-align: bottom;
+  }
 }
 
 .icon-fw {
