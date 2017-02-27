@@ -1,0 +1,46 @@
+.modal-content {
+  border: 0;
+}
+
+.modal-header {
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-left: 0;
+  padding-right: 0;
+
+  > .close {
+    font-size: $modal-title-font-size;
+    font-weight: bold;
+    margin-right: -10px;
+    margin-top: -45px;
+  }
+}
+
+.modal-body {
+  font-size: .9rem;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.modal-title {
+  color: $modal-title-color;
+  font-size: $modal-title-font-size;
+  font-weight: bold;
+  padding-top: 40px;
+}
+
+.modal-footer {
+  border: 0;
+  justify-content: flex-start;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding: 0;
+
+  .btn-secondary {
+    background: $gray-dark;
+    color: $gray-lightest;
+  }
+}

@@ -63,11 +63,16 @@
 /******/ 	__webpack_require__.p = "./";
 
 /******/ 	// Load entry module and return exports
+<<<<<<< HEAD
 /******/ 	return __webpack_require__(__webpack_require__.s = 28);
+=======
+/******/ 	return __webpack_require__(__webpack_require__.s = 2);
+>>>>>>> a11849d5ac61d1f2ab4a5be45c6c10346d034963
 /******/ })
 /************************************************************************/
 /******/ ([
 /* 0 */
+<<<<<<< HEAD
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -96,19 +101,11 @@
 
 
 __WEBPACK_IMPORTED_MODULE_0_vue___default.a.use(__WEBPACK_IMPORTED_MODULE_1__events_js__["a" /* default */]);
+=======
+/***/ function(module, exports) {
+>>>>>>> a11849d5ac61d1f2ab4a5be45c6c10346d034963
 
-new __WEBPACK_IMPORTED_MODULE_0_vue___default.a({
-    el: '#root',
 
-    components: {
-        'app': __WEBPACK_IMPORTED_MODULE_2__components_App_vue___default.a,
-        'ui-preloader': __WEBPACK_IMPORTED_MODULE_7__components_UIPreloader_vue___default.a,
-        'ui-sidebar': __WEBPACK_IMPORTED_MODULE_3__components_UISidebar_vue___default.a,
-        'ui-sidebar-item': __WEBPACK_IMPORTED_MODULE_5__components_UISidebarItem_vue___default.a,
-        'ui-sidebar-toggle': __WEBPACK_IMPORTED_MODULE_4__components_UISidebarToggle_vue___default.a,
-        'ui-fullscreen-toggle': __WEBPACK_IMPORTED_MODULE_6__components_UIToggleFullscreen_vue___default.a
-    }
-});
 
 /***/ },
 /* 1 */
@@ -120,6 +117,7 @@ new __WEBPACK_IMPORTED_MODULE_0_vue___default.a({
 /* 2 */
 /***/ function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 //
@@ -9858,6 +9856,8 @@ module.exports = g;
 /* 28 */
 /***/ function(module, exports, __webpack_require__) {
 
+=======
+>>>>>>> a11849d5ac61d1f2ab4a5be45c6c10346d034963
 __webpack_require__(0);
 module.exports = __webpack_require__(1);
 

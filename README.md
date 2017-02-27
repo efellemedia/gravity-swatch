@@ -1,13 +1,33 @@
 # Gravity Bootstrap 4 Swatch Theme
-Bootstrap 4 swatch theme based on the new FusionCMS v5 designs.
+Because there is a law such as gravity, the universe can and will create itself from nothing.
+
+## Yarn
+We use Yarn in place of npm to install node dependencies. Yarn is simple to install if you're on macOS through brew:
+
+```
+brew update
+brew install yarn
+yarn --version
+```
 
 ## Installation
-```
-npm install
-bower install
+Bootstrap is loaded through Bower, and our build process is ran through webpack. Run the following commands to install the required dependencies.
 
-npm run dev
 ```
+bower install
+yarn
+```
+
+## Compiling
+Once the dependencies have been resolved, compiling the source code is simple:
+
+```
+yarn run dev
+```
+
+the `dev` script will tell webpack to compile and watch for any future changes to the code base.
+
+---
 
 ## Utilities
 

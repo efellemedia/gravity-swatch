@@ -11,10 +11,24 @@ let mix = require('laravel-mix').mix;
  |
  */
 
-mix.setPublicPath(__dirname + "/docs")
+mix.setPublicPath(__dirname + '/dist/');
 
-mix.js('src/js/gravity.js', '/assets/js')
-    .sass('src/scss/gravity.scss', '/assets/css');
-    // .copy(__dirname + '/dist/css', __dirname + '/docs/assets/css')
-    // .copy(__dirname + '/dist/img', __dirname + '/docs/assets/img')
-    // .copy(__dirname + '/dist/js', __dirname + '/docs/assets/js');
+mix.js('src/js/gravity.js', '../docs/assets/js')
+    .sass('src/scss/gravity.scss', 'css')
+    .copy('dist/css/gravity.css', 'docs/assets/css/gravity.css')
+    .disableNotifications();
+
+// Full API
+// mix.js(src, output);
+// mix.extract(vendorLibs);
+// mix.sass(src, output);
+// mix.less(src, output);
+// mix.combine(files, destination);
+// mix.copy(from, to);
+// mix.minify(file);
+// mix.sourceMaps(); // Enable sourcemaps
+// mix.version(); // Enable versioning.
+// mix.disableNotifications();
+// mix.setCachePath('some/folder');
+// mix.setPublicPath('path/to/public'); <-- Useful for Node apps.
+// mix.webpackConfig({}); <-- Override webpack.config.js, without editing the file directly.
