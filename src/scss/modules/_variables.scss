@@ -112,6 +112,24 @@ $jumbotron-bg: #fff;
 
 $blockquote-border-color: $gray-dark !default;
 
+// Alerts
+
+$alert-success-bg:            $brand-success !default;
+$alert-success-text:          $gray-lightest !default;
+$alert-success-border:        $brand-success !default;
+
+$alert-info-bg:               $brand-info !default;
+$alert-info-text:             $gray-lightest !default;
+$alert-info-border:           $brand-info !default;
+
+$alert-warning-bg:            $brand-warning !default;
+$alert-warning-text:          $gray-dark !default;
+$alert-warning-border:        $brand-warning !default;
+
+$alert-danger-bg:             $brand-danger !default;
+$alert-danger-text:           $gray-lightest !default;
+$alert-danger-border:         $brand-danger !default;
+
 // Progress
 
 $progress-bg: #fff !default;
