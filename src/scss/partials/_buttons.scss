@@ -73,11 +73,24 @@
       background-color: rgba(0, 0, 0, 0.1);
       color: rgba(0, 0, 0, 0.4);
       opacity: 1;
+    }
+
+    &.dropdown-toggle::before {
+      display: inline-block;
+      width: 0;
+      height: 0;
+      margin-left: 0;
+      vertical-align: middle;
+      content: "";
+      border-top: 0.3em solid;
+      border-right: 0.3em solid transparent;
+      border-left: 0.3em solid transparent;
 
       &:hover,
       &:focus {
         background-color: rgba(0, 0, 0, 0.1);
       }
+
     }
   }
 
@@ -93,8 +106,6 @@
     border-left: 0.3em solid transparent;
   }
 }
-
-
 
 .btn-group {
   .btn + .btn,
