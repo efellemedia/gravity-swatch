@@ -43,9 +43,11 @@ code {
 .icon-preview {
   padding: 15px;
   .icon {
-    font-size: 1.8rem;
+    font-size: 2rem;
+    width: 2rem;
     line-height: 2;
     margin-right: 15px;
     vertical-align: middle;
+    text-align: center; 
   }
 }
