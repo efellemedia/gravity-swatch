@@ -11,10 +11,9 @@ yarn --version
 ```
 
 ## Installation
-Bootstrap is loaded through Bower, and our build process is ran through webpack. Run the following commands to install the required dependencies.
+Bootstrap is loaded through through npm and webpack. Run the following command to install the required dependencies.
 
 ```
-bower install
 yarn
 ```
 
@@ -22,10 +21,10 @@ yarn
 Once the dependencies have been resolved, compiling the source code is simple:
 
 ```
-yarn run dev
+yarn run watch
 ```
 
-the `dev` script will tell webpack to compile and watch for any future changes to the code base.
+the `watch` script will tell webpack to compile and watch for any future changes to the code base.
 
 ---
 
