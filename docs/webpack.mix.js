@@ -11,16 +11,10 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/js/docs.js', 'assets/js/')
-   .sass('resources/scss/docs.scss', 'assets/css/')
-   .webpackConfig({
-       node: {
-           fs: "empty"
-       }
-   })
-   .options({
-       processCssUrls: false
-   });
+mix.setResourceRoot('../')
+    .setPublicPath('assets/')
+    .js('resources/js/docs.js', 'js/')
+    .sass('resources/scss/docs.scss', 'css/');
 
 // Full API
 // mix.js(src, output);

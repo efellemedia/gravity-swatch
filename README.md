@@ -26,8 +26,6 @@ npm run watch
 
 the `watch` script will tell webpack to compile and watch for any future changes to the code base.
 
----
-
 ## Utilities
 
 The following utility classes were added as part of this swatch theme.

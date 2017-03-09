@@ -11,11 +11,9 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.setPublicPath('dist')
-    .sass('src/scss/gravity.scss', 'dist/css')
-    .options({
-        processCssUrls: false
-    });
+mix.setResourceRoot('../')
+    .setPublicPath('dist/')
+    .sass('src/scss/gravity.scss', 'css/');
 
 // Full API
 // mix.js(src, output);
