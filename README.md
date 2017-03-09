@@ -1,8 +1,12 @@
 # Gravity Bootstrap 4 Swatch Theme
 Because there is a law such as gravity, the universe can and will create itself from nothing.
 
-## Yarn
-We use Yarn in place of npm to install node dependencies. Yarn is simple to install if you're on macOS through brew:
+## Installation
+The Gravity swatch theme is distributed through npm as a registered private package. You must first be given read-access to the repository to be able to download the package through npm. Be sure you've logged in under your account through `npm`.
+
+```
+npm i @efelle/gravity-swatch --save
+```
 
 ```
 brew update
@@ -10,18 +14,18 @@ brew install yarn
 yarn --version
 ```
 
-## Installation
+## Contributing
 Bootstrap is loaded through through npm and webpack. Run the following command to install the required dependencies.
 
 ```
-yarn
+npm i
 ```
 
 ## Compiling
 Once the dependencies have been resolved, compiling the source code is simple:
 
 ```
-yarn run watch
+npm run watch
 ```
 
 the `watch` script will tell webpack to compile and watch for any future changes to the code base.
