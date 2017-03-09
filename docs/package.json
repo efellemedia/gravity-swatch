@@ -1,21 +1,19 @@
 {
-  "name": "@efelle/gravity-swatch",
-  "version": "0.0.2",
-  "license": "UNLICENSED",
-  "repository": "git@github.com:efellemedia/gravity-swatch.git",
+  "name": "docs",
+  "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack --progress --hide-modules",
     "watch": "cross-env NODE_ENV=development webpack --watch --progress --hide-modules",
     "hot": "cross-env NODE_ENV=development webpack-dev-server --inline --hot",
     "production": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
-  "author": "efelle",
   "dependencies": {
-    "bootstrap": "^4.0.0-alpha.6",
-    "font-awesome": "^4.7.0"
-  },
-  "devDependencies": {
+    "file-api": "^0.10.4",
+    "filereader": "^0.10.3",
+    "highlight.js": "^9.10.0",
     "laravel-mix": "^0.8.8",
-    "vue": "^2.2.1"
+    "lodash": "^4.17.4",
+    "vue": "^2.2.1",
+    "vue-router": "^2.3.0"
   }
 }

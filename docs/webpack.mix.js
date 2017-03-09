@@ -11,11 +11,16 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.setPublicPath('dist')
-    .sass('src/scss/gravity.scss', 'dist/css')
-    .options({
-        processCssUrls: false
-    });
+mix.js('resources/js/docs.js', 'assets/js/')
+   .sass('resources/scss/docs.scss', 'assets/css/')
+   .webpackConfig({
+       node: {
+           fs: "empty"
+       }
+   })
+   .options({
+       processCssUrls: false
+   });
 
 // Full API
 // mix.js(src, output);

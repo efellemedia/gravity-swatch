@@ -1,29 +1,71 @@
+@import url(../../node_modules/highlight.js/styles/github.css);
+@import url(../../../dist/css/gravity.css);
 body {
-    padding-top: 100px;
+  padding-top: 5rem;
+}
+
+.page-header {
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.ui-example {
+  position: relative;
+  padding: 1rem;
+  margin: 1rem -1rem;
+  margin-bottom: 0;
+  border: solid #f7f7f9;
+}
+
+.highlight {
+  padding: 1rem;
+  margin: 1rem -1rem;
+  margin-top: 0;
+  background-color: #f7f7f9;
+  border: solid #f7f7f9;
+}
+
+.highlight pre code {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: transparent;
+  border: 0;
+  overflow: auto;
+  word-wrap: normal;
+}
+
+.docs-section {
+  margin-top: 6em;
+}
+
+.docs-section h1 {
+  padding-top: 100px;
 }
 
 .bs-component {
-    position: relative;
-    margin-bottom: 20px;
+  position: relative;
+  margin-bottom: 20px;
 }
 
 .bs-component .modal {
-    position: relative;
-    top: auto;
-    right: auto;
-    left: auto;
-    bottom: auto;
-    z-index: 1;
-    display: block;
+  position: relative;
+  top: auto;
+  right: auto;
+  left: auto;
+  bottom: auto;
+  z-index: 1;
+  display: block;
 }
 
-.bs-component .model &-dialog {
-    width: 90%;
+.model .bs-component-dialog {
+  width: 90%;
 }
 
 .bs-component .popover {
-    position: relative;
-    display: inline-block;
-    width: 220px;
-    margin: 20px;
+  position: relative;
+  display: inline-block;
+  width: 220px;
+  margin: 20px;
 }
