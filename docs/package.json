@@ -1,0 +1,19 @@
+{
+  "name": "docs",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack --progress --hide-modules",
+    "watch": "cross-env NODE_ENV=development webpack --watch --progress --hide-modules",
+    "hot": "cross-env NODE_ENV=development webpack-dev-server --inline --hot",
+    "production": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "file-api": "^0.10.4",
+    "filereader": "^0.10.3",
+    "highlight.js": "^9.10.0",
+    "laravel-mix": "^0.8.8",
+    "lodash": "^4.17.4",
+    "vue": "^2.2.1",
+    "vue-router": "^2.3.0"
+  }
+}
