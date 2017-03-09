@@ -1,4 +1,6 @@
-# Gravity Bootstrap 4 Swatch Theme
+<p align="center"><img src="gravityswatch.png"></p>
+
+# Introduction
 Because there is a law such as gravity, the universe can and will create itself from nothing.
 
 ## Installation
@@ -6,12 +8,6 @@ The Gravity swatch theme is distributed through npm as a registered private pack
 
 ```
 npm i @efelle/gravity-swatch --save
-```
-
-```
-brew update
-brew install yarn
-yarn --version
 ```
 
 ## Contributing
