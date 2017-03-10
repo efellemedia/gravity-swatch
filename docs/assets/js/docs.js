@@ -20407,7 +20407,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     data: function data() {
         return {
             'query': '',
-            'icons': ['pencil', 'dashboard', 'form', 'atom', 'stack', 'search', 'picture', 'user-male', 'notepad', 'papers-lines', 'commenting', 'CRM', 'faq', 'gallery', 'send', 'mail', 'folders', 'broadcast', 'horizontal-dots-circle', 'attention', 'bell', 'bin-full', 'bin', 'book', 'box-arrow-in', 'box-arrow-out', 'box-docs', 'box-dots', 'box-films', 'box', 'comment', 'comments', 'bullet-list-1', 'bullet-list-2', 'calendar-number', 'calendar', 'card-double-1', 'card-double-2', 'card-1', 'card-2', 'cases', 'case', 'circle-minus', 'circle-plus', 'clock-dot', 'clock-line', 'sliders-1', 'sliders-2', 'diamond', 'horizontal-dots', 'papers', 'envelopes', 'envelope', 'exclamation', 'eye', 'films', 'film-play', 'film', 'paperplane', 'folder-dots', 'folder-search', 'folder', 'gear-double', 'gear-1', 'gear-2', 'gift', 'graph-bar', 'graphy-pie-1', 'graph-pie-2', 'home', 'info', 'key-ring', 'lightning', 'list', 'lock-closed', 'lock-open', 'newspaper-pile', 'newspaper', 'none', 'note-pen', 'notebook', 'page', 'people', 'phone', 'phone-call', 'ring', 'toolbox', 'screens-blank', 'search-minute', 'search-plus', 'paper-lines', 'paper', 'sheet-aligned', 'sheet-double', 'star-shield', 'stock-exchange', 'store', 'switches', 'tags', 'tag', 'wrench', 'user-female', 'check-circle', 'check', 'times', 'arrow-1', 'arrow-2', 'arrow-3', 'arrow-4', 'arrow-5', 'arrow-6', 'arrow-7', 'arrow-8', 'arrow-9', 'arrow-10', 'arrow-11', 'arrow-12', 'arrow-13', 'arrow-14', 'arrow-15', 'arrow-16', 'arrow-17', 'arrow-18', 'arrow-19', 'arrow-20', 'arrow-21', 'arrow-22', 'arrow-23', 'arrow-24', 'arrow-25', 'arrow-26', 'arrow-27', 'arrow-28', 'arrow-29', 'arrow-30', 'arrow-31', 'arrow-32', 'arrow-33', 'arrow-34', 'arrow-35', 'arrow-36', 'arrow-37', 'arrow-38', 'arrow-39', 'arrow-40', 'arrow-41', 'arrow-42', 'arrow-43', 'arrow-44', 'arrow-45', 'arrow-46', 'arrow-47', 'arrow-48', 'arrow-49', 'bag-1', 'bag-2', 'banknote-bitcoin-1', 'banknote-bitcoin-2', 'banknote-bitcoin-3', 'banknote-dollar-1', 'banknote-dollar-2', 'banknote-dollar-3', 'banknote-euro-1', 'banknote-euro-2', 'banknote-euro-3', 'bar-code1', 'bar-code2', 'bar-code3', 'basket-1', 'basket-3', 'basket-4', 'basket-5', 'basket-6', 'basket-7', 'basket-8', 'battery-1', 'battery-2', 'battery-3', 'battery-4', 'battery-5', 'battery-6', 'bitcoin-1', 'bitcoin-2', 'bone-1', 'bone-2', 'bookmark-1', 'bookmark-2', 'brokenheart-1', 'brokenheart-2', 'camera-1', 'camera-2', 'camera-3', 'camera-4', 'camera-5', 'cart-1', 'cart-2', 'cart-3', 'cart-4', 'cart-5', 'cart-6', 'cart-7', 'cash-register', 'cloud-1', 'cloud-2', 'cloud-3', 'connexion-1', 'connexion-2', 'creditcard-1', 'creditcard-2', 'directions-1', 'display-1', 'display-2', 'display-3', 'display-4', 'display-5', 'display-6', 'display-7', 'display-8', 'display-9', 'display-10', 'display-11', 'display-12', 'dollar-1', 'dollar-2', 'dotted-circle-1', 'dotted-circle-2', 'dotted-square-1', 'dotted-square-2', 'drawers-1', 'drawers-2', 'drawers-3', 'dribbble-circle', 'dribbble-square', 'dropbox-circle', 'dropbox-square', 'euro-1', 'euro-2', 'facebook-circle', 'facebook-square', 'flag-1', 'flag-2', 'floppydisk-1', 'floppydisk-2', 'googleplus-circle', 'googleplus-square', 'headphone-1', 'headphone-2', 'headphone-3', 'histogram-1', 'histogram-2', 'histogram-3', 'histogram-4', 'ice-bar', 'inbox-1', 'inbox-2', 'inbox-3', 'inbox-4', 'inbox-5', 'instagram-circle', 'instagram-square', 'keyboard-1', 'keyboard-2', 'keyboard-3', 'linkedin-circle', 'linkedin-square', 'location-1', 'location-2', 'location-3', 'location-4', 'location-5', 'location-6', 'loudspeaker-1', 'loudspeaker-2', 'loudspeaker-3', 'magician-hat', 'mail-2', 'medical-1', 'medical-2', 'medicine-1', 'medicine-2', 'micro-1', 'micro-2', 'movie-camera-1', 'movie-camera-2', 'movie-camera-3', 'movie-camera-4', 'music-1', 'music-2', 'music-3', 'music-4', 'pinterest-circle', 'pinterest-square', 'presentation-1', 'presentation-2', 'presentation-3', 'presentation-4', 'presentation-5', 'radio-1', 'radio-2', 'roadsign-1', 'roadsign-2', 'roadsign-3', 'screen-1', 'screen-2', 'screen-3', 'screen-4', 'screen-5', 'screen-6', 'shredder-1', 'shredder-2', 'target-1', 'target-2', 'target-3', 'ticket-1', 'ticket-2', 'ticket-3', 'ticket-4', 'ticket-5', 'tumblr-circle', 'tumblr-square', 'tv-1', 'tv-2', 'tv-3', 'twitter-circle', 'twitter-square', 'vial-1', 'vial-2', 'vial-3', 'vial-4', 'vimeo-circle', 'vimeo-square', 'volume-1', 'volume-2', 'volume-3', 'volume-4', 'volume-5', 'wallet-1', 'wallet-2', 'wallet-3', 'weather-1', 'weather-2', 'weather-3', 'weather-4', 'weather-5', 'weather-6', 'weather-7', 'weather-8', 'weather-9', 'weather-10', 'weather-11', 'weather-12', 'weather-13', 'weather-14', 'weather-15', 'weather-16', 'weather-17', 'weather-18', 'weather-19', 'weather-20', 'weather-21', 'weather-22', 'weather-23', 'weather-24', 'weather-25', 'weather-26', 'weather-27', 'weather-28', 'weather-29', 'weather-30', 'webpage-1', 'webpage-2', 'wifi-1', 'wifi-2', 'wifi-3', 'wifi-4', 'wordpress-circle', 'wordpress-square', 'world-1', 'world-2', 'world-3', 'world-4', 'world-5', 'yahoo-circle', 'yahoo-square', 'youtube-circle', 'youtube-square']
+            'icons': ['pencil', 'dashboard', 'form', 'atom', 'stack', 'search', 'picture', 'user-male', 'notepad', 'papers-lines', 'commenting', 'crm', 'faq', 'gallery', 'send', 'mail', 'folders', 'broadcast', 'horizontal-dots-circle', 'attention', 'bell', 'bin-full', 'bin', 'book', 'box-arrow-in', 'box-arrow-out', 'box-docs', 'box-dots', 'box-films', 'box', 'comment', 'comments', 'bullet-list-1', 'bullet-list-2', 'calendar-number', 'calendar', 'card-double-1', 'card-double-2', 'card-1', 'card-2', 'cases', 'case', 'circle-minus', 'circle-plus', 'clock-dot', 'clock-line', 'sliders-1', 'sliders-2', 'diamond', 'horizontal-dots', 'papers', 'envelopes', 'envelope', 'exclamation', 'eye', 'films', 'film-play', 'film', 'paperplane', 'folder-dots', 'folder-search', 'folder', 'gear-double', 'gear-1', 'gear-2', 'gift', 'graph-bar', 'graphy-pie-1', 'graph-pie-2', 'home', 'info', 'key-ring', 'lightning', 'list', 'lock-closed', 'lock-open', 'newspaper-pile', 'newspaper', 'none', 'note-pen', 'notebook', 'page', 'people', 'phone', 'phone-call', 'key', 'toolbox', 'screens-blank', 'search-minute', 'search-plus', 'paper-lines', 'paper', 'sheet-aligned', 'sheet-double', 'star-shield', 'stock-exchange', 'store', 'switches', 'tags', 'tag', 'wrench', 'user-female', 'check-circle', 'check', 'times', 'arrow-1', 'arrow-2', 'arrow-3', 'arrow-4', 'arrow-5', 'arrow-6', 'arrow-7', 'arrow-8', 'arrow-9', 'arrow-10', 'arrow-11', 'arrow-12', 'arrow-13', 'arrow-14', 'arrow-15', 'arrow-16', 'arrow-17', 'arrow-18', 'arrow-19', 'arrow-20', 'arrow-21', 'arrow-22', 'arrow-23', 'arrow-24', 'arrow-25', 'arrow-26', 'arrow-27', 'arrow-28', 'arrow-29', 'arrow-30', 'arrow-31', 'arrow-32', 'arrow-33', 'arrow-34', 'arrow-35', 'arrow-36', 'arrow-37', 'arrow-38', 'arrow-39', 'arrow-40', 'arrow-41', 'arrow-42', 'arrow-43', 'arrow-44', 'arrow-45', 'arrow-46', 'arrow-47', 'arrow-48', 'arrow-49', 'bag-1', 'bag-2', 'banknote-bitcoin-1', 'banknote-bitcoin-2', 'banknote-bitcoin-3', 'banknote-dollar-1', 'banknote-dollar-2', 'banknote-dollar-3', 'banknote-euro-1', 'banknote-euro-2', 'banknote-euro-3', 'bar-code1', 'bar-code2', 'bar-code3', 'basket-1', 'basket-3', 'basket-4', 'basket-5', 'basket-6', 'basket-7', 'basket-8', 'battery-1', 'battery-2', 'battery-3', 'battery-4', 'battery-5', 'battery-6', 'bitcoin-1', 'bitcoin-2', 'bone-1', 'bone-2', 'bookmark-1', 'bookmark-2', 'brokenheart-1', 'brokenheart-2', 'camera-1', 'camera-2', 'camera-3', 'camera-4', 'camera-5', 'cart-1', 'cart-2', 'cart-3', 'cart-4', 'cart-5', 'cart-6', 'cart-7', 'cash-register', 'cloud-1', 'cloud-2', 'cloud-3', 'connexion-1', 'connexion-2', 'creditcard-1', 'creditcard-2', 'directions-1', 'display-1', 'display-2', 'display-3', 'display-4', 'display-5', 'display-6', 'display-7', 'display-8', 'display-9', 'display-10', 'display-11', 'display-12', 'dollar-1', 'dollar-2', 'dotted-circle-1', 'dotted-circle-2', 'dotted-square-1', 'dotted-square-2', 'drawers-1', 'drawers-2', 'drawers-3', 'dribbble-circle', 'dribbble-square', 'dropbox-circle', 'dropbox-square', 'euro-1', 'euro-2', 'facebook-circle', 'facebook-square', 'flag-1', 'flag-2', 'floppydisk-1', 'floppydisk-2', 'googleplus-circle', 'googleplus-square', 'headphone-1', 'headphone-2', 'headphone-3', 'histogram-1', 'histogram-2', 'histogram-3', 'histogram-4', 'ice-bar', 'inbox-1', 'inbox-2', 'inbox-3', 'inbox-4', 'inbox-5', 'instagram-circle', 'instagram-square', 'keyboard-1', 'keyboard-2', 'keyboard-3', 'linkedin-circle', 'linkedin-square', 'location-1', 'location-2', 'location-3', 'location-4', 'location-5', 'location-6', 'loudspeaker-1', 'loudspeaker-2', 'loudspeaker-3', 'magician-hat', 'mail-2', 'medical-1', 'medical-2', 'medicine-1', 'medicine-2', 'micro-1', 'micro-2', 'movie-camera-1', 'movie-camera-2', 'movie-camera-3', 'movie-camera-4', 'music-1', 'music-2', 'music-3', 'music-4', 'pinterest-circle', 'pinterest-square', 'presentation-1', 'presentation-2', 'presentation-3', 'presentation-4', 'presentation-5', 'radio-1', 'radio-2', 'roadsign-1', 'roadsign-2', 'roadsign-3', 'screen-1', 'screen-2', 'screen-3', 'screen-4', 'screen-5', 'screen-6', 'shredder-1', 'shredder-2', 'target-1', 'target-2', 'target-3', 'ticket-1', 'ticket-2', 'ticket-3', 'ticket-4', 'ticket-5', 'tumblr-circle', 'tumblr-square', 'tv-1', 'tv-2', 'tv-3', 'twitter-circle', 'twitter-square', 'vial-1', 'vial-2', 'vial-3', 'vial-4', 'vimeo-circle', 'vimeo-square', 'volume-1', 'volume-2', 'volume-3', 'volume-4', 'volume-5', 'wallet-1', 'wallet-2', 'wallet-3', 'weather-1', 'weather-2', 'weather-3', 'weather-4', 'weather-5', 'weather-6', 'weather-7', 'weather-8', 'weather-9', 'weather-10', 'weather-11', 'weather-12', 'weather-13', 'weather-14', 'weather-15', 'weather-16', 'weather-17', 'weather-18', 'weather-19', 'weather-20', 'weather-21', 'weather-22', 'weather-23', 'weather-24', 'weather-25', 'weather-26', 'weather-27', 'weather-28', 'weather-29', 'weather-30', 'webpage-1', 'webpage-2', 'wifi-1', 'wifi-2', 'wifi-3', 'wifi-4', 'wordpress-circle', 'wordpress-square', 'world-1', 'world-2', 'world-3', 'world-4', 'world-5', 'yahoo-circle', 'yahoo-square', 'youtube-circle', 'youtube-square', 'ai', 'android', 'arobase', 'binoculars', 'bluetooth', 'board', 'bottle', 'calculator', 'circle', 'scissors', 'clip', 'code', 'coffee', 'eject', 'fastforward', 'finder', 'forward', 'game', 'gif', 'glass', 'google', 'graduation', 'hardrive', 'hierarchy', 'jpg', 'laptop', 'microsoft', 'mouse', 'network', 'off', 'os', 'pause', 'pdf', 'pinetree', 'play', 'player', 'png', 'printer', 'psd', 'record', 'rocket', 'safari', 'safe', 'servers', 'smartphone', 'tablet', 'tie', 'tiebow', 'turntable']
         };
     },
 
@@ -38060,7 +38060,7 @@ var Component = __webpack_require__(0)(
   /* cssModules */
   null
 )
-Component.options.__file = "/Users/Kai/Code/gravity-swatch/docs/resources/js/components/Buttons.vue"
+Component.options.__file = "/Users/cameron/Code/gravity-swatch/docs/resources/js/components/Buttons.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Buttons.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -38094,7 +38094,7 @@ var Component = __webpack_require__(0)(
   /* cssModules */
   null
 )
-Component.options.__file = "/Users/Kai/Code/gravity-swatch/docs/resources/js/components/Containers.vue"
+Component.options.__file = "/Users/cameron/Code/gravity-swatch/docs/resources/js/components/Containers.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Containers.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -38128,7 +38128,7 @@ var Component = __webpack_require__(0)(
   /* cssModules */
   null
 )
-Component.options.__file = "/Users/Kai/Code/gravity-swatch/docs/resources/js/components/Dialogs.vue"
+Component.options.__file = "/Users/cameron/Code/gravity-swatch/docs/resources/js/components/Dialogs.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Dialogs.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -38162,7 +38162,7 @@ var Component = __webpack_require__(0)(
   /* cssModules */
   null
 )
-Component.options.__file = "/Users/Kai/Code/gravity-swatch/docs/resources/js/components/Forms.vue"
+Component.options.__file = "/Users/cameron/Code/gravity-swatch/docs/resources/js/components/Forms.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Forms.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -38196,7 +38196,7 @@ var Component = __webpack_require__(0)(
   /* cssModules */
   null
 )
-Component.options.__file = "/Users/Kai/Code/gravity-swatch/docs/resources/js/components/Icons.vue"
+Component.options.__file = "/Users/cameron/Code/gravity-swatch/docs/resources/js/components/Icons.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Icons.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -38230,7 +38230,7 @@ var Component = __webpack_require__(0)(
   /* cssModules */
   null
 )
-Component.options.__file = "/Users/Kai/Code/gravity-swatch/docs/resources/js/components/Indicators.vue"
+Component.options.__file = "/Users/cameron/Code/gravity-swatch/docs/resources/js/components/Indicators.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Indicators.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -38264,7 +38264,7 @@ var Component = __webpack_require__(0)(
   /* cssModules */
   null
 )
-Component.options.__file = "/Users/Kai/Code/gravity-swatch/docs/resources/js/components/Introduction.vue"
+Component.options.__file = "/Users/cameron/Code/gravity-swatch/docs/resources/js/components/Introduction.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Introduction.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -38298,7 +38298,7 @@ var Component = __webpack_require__(0)(
   /* cssModules */
   null
 )
-Component.options.__file = "/Users/Kai/Code/gravity-swatch/docs/resources/js/components/Navbars.vue"
+Component.options.__file = "/Users/cameron/Code/gravity-swatch/docs/resources/js/components/Navbars.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Navbars.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -38332,7 +38332,7 @@ var Component = __webpack_require__(0)(
   /* cssModules */
   null
 )
-Component.options.__file = "/Users/Kai/Code/gravity-swatch/docs/resources/js/components/Navs.vue"
+Component.options.__file = "/Users/cameron/Code/gravity-swatch/docs/resources/js/components/Navs.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Navs.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -38366,7 +38366,7 @@ var Component = __webpack_require__(0)(
   /* cssModules */
   null
 )
-Component.options.__file = "/Users/Kai/Code/gravity-swatch/docs/resources/js/components/ProgressBars.vue"
+Component.options.__file = "/Users/cameron/Code/gravity-swatch/docs/resources/js/components/ProgressBars.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] ProgressBars.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -38400,7 +38400,7 @@ var Component = __webpack_require__(0)(
   /* cssModules */
   null
 )
-Component.options.__file = "/Users/Kai/Code/gravity-swatch/docs/resources/js/components/Tables.vue"
+Component.options.__file = "/Users/cameron/Code/gravity-swatch/docs/resources/js/components/Tables.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Tables.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -38434,7 +38434,7 @@ var Component = __webpack_require__(0)(
   /* cssModules */
   null
 )
-Component.options.__file = "/Users/Kai/Code/gravity-swatch/docs/resources/js/components/Typography.vue"
+Component.options.__file = "/Users/cameron/Code/gravity-swatch/docs/resources/js/components/Typography.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Typography.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -38468,7 +38468,7 @@ var Component = __webpack_require__(0)(
   /* cssModules */
   null
 )
-Component.options.__file = "/Users/Kai/Code/gravity-swatch/docs/resources/js/partials/Navbar.vue"
+Component.options.__file = "/Users/cameron/Code/gravity-swatch/docs/resources/js/partials/Navbar.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Navbar.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -38502,7 +38502,7 @@ var Component = __webpack_require__(0)(
   /* cssModules */
   null
 )
-Component.options.__file = "/Users/Kai/Code/gravity-swatch/docs/resources/js/views/BasicElements.vue"
+Component.options.__file = "/Users/cameron/Code/gravity-swatch/docs/resources/js/views/BasicElements.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] BasicElements.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -40829,7 +40829,7 @@ if (false) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(process, global) {/*!
- * Vue.js v2.2.1
+ * Vue.js v2.2.2
  * (c) 2014-2017 Evan You
  * Released under the MIT License.
  */
@@ -41048,7 +41048,12 @@ function looseEqual (a, b) {
   var isObjectA = isObject(a);
   var isObjectB = isObject(b);
   if (isObjectA && isObjectB) {
-    return JSON.stringify(a) === JSON.stringify(b)
+    try {
+      return JSON.stringify(a) === JSON.stringify(b)
+    } catch (e) {
+      // possible circular reference
+      return a === b
+    }
   } else if (!isObjectA && !isObjectB) {
     return String(a) === String(b)
   } else {
@@ -41367,15 +41372,14 @@ var bailRE = /[^\w.$]/;
 function parsePath (path) {
   if (bailRE.test(path)) {
     return
-  } else {
-    var segments = path.split('.');
-    return function (obj) {
-      for (var i = 0; i < segments.length; i++) {
-        if (!obj) { return }
-        obj = obj[segments[i]];
-      }
-      return obj
+  }
+  var segments = path.split('.');
+  return function (obj) {
+    for (var i = 0; i < segments.length; i++) {
+      if (!obj) { return }
+      obj = obj[segments[i]];
     }
+    return obj
   }
 }
 
@@ -41463,7 +41467,7 @@ Dep.prototype.depend = function depend () {
 };
 
 Dep.prototype.notify = function notify () {
-  // stablize the subscriber list first
+  // stabilize the subscriber list first
   var subs = this.subs.slice();
   for (var i = 0, l = subs.length; i < l; i++) {
     subs[i].update();
@@ -41706,27 +41710,27 @@ function defineReactive$$1 (
  * triggers change notification if the property doesn't
  * already exist.
  */
-function set (obj, key, val) {
-  if (Array.isArray(obj)) {
-    obj.length = Math.max(obj.length, key);
-    obj.splice(key, 1, val);
+function set (target, key, val) {
+  if (Array.isArray(target)) {
+    target.length = Math.max(target.length, key);
+    target.splice(key, 1, val);
     return val
   }
-  if (hasOwn(obj, key)) {
-    obj[key] = val;
-    return
+  if (hasOwn(target, key)) {
+    target[key] = val;
+    return val
   }
-  var ob = obj.__ob__;
-  if (obj._isVue || (ob && ob.vmCount)) {
+  var ob = target.__ob__;
+  if (target._isVue || (ob && ob.vmCount)) {
     process.env.NODE_ENV !== 'production' && warn(
       'Avoid adding reactive properties to a Vue instance or its root $data ' +
       'at runtime - declare it upfront in the data option.'
     );
-    return
+    return val
   }
   if (!ob) {
-    obj[key] = val;
-    return
+    target[key] = val;
+    return val
   }
   defineReactive$$1(ob.value, key, val);
   ob.dep.notify();
@@ -41736,23 +41740,23 @@ function set (obj, key, val) {
 /**
  * Delete a property and trigger change if necessary.
  */
-function del (obj, key) {
-  if (Array.isArray(obj)) {
-    obj.splice(key, 1);
+function del (target, key) {
+  if (Array.isArray(target)) {
+    target.splice(key, 1);
     return
   }
-  var ob = obj.__ob__;
-  if (obj._isVue || (ob && ob.vmCount)) {
+  var ob = target.__ob__;
+  if (target._isVue || (ob && ob.vmCount)) {
     process.env.NODE_ENV !== 'production' && warn(
       'Avoid deleting properties on a Vue instance or its root $data ' +
       '- just set it to null.'
     );
     return
   }
-  if (!hasOwn(obj, key)) {
+  if (!hasOwn(target, key)) {
     return
   }
-  delete obj[key];
+  delete target[key];
   if (!ob) {
     return
   }
@@ -42268,12 +42272,12 @@ function isType (type, fn) {
   return false
 }
 
-function handleError (err, vm, type) {
+function handleError (err, vm, info) {
   if (config.errorHandler) {
-    config.errorHandler.call(null, err, vm, type);
+    config.errorHandler.call(null, err, vm, info);
   } else {
     if (process.env.NODE_ENV !== 'production') {
-      warn(("Error in " + type + ":"), vm);
+      warn(("Error in " + info + ":"), vm);
     }
     /* istanbul ignore else */
     if (inBrowser && typeof console !== 'undefined') {
@@ -42432,8 +42436,9 @@ function cloneVNode (vnode) {
 }
 
 function cloneVNodes (vnodes) {
-  var res = new Array(vnodes.length);
-  for (var i = 0; i < vnodes.length; i++) {
+  var len = vnodes.length;
+  var res = new Array(len);
+  for (var i = 0; i < len; i++) {
     res[i] = cloneVNode(vnodes[i]);
   }
   return res
@@ -42561,7 +42566,7 @@ function simpleNormalizeChildren (children) {
   return children
 }
 
-// 2. When the children contains constrcuts that always generated nested Arrays,
+// 2. When the children contains constructs that always generated nested Arrays,
 // e.g. <template>, <slot>, v-for, or when the children is provided by user
 // with hand-written render functions / JSX. In such cases a full normalization
 // is needed to cater to all possible types of children values.
@@ -42679,10 +42684,19 @@ function eventsMixin (Vue) {
   };
 
   Vue.prototype.$off = function (event, fn) {
+    var this$1 = this;
+
     var vm = this;
     // all
     if (!arguments.length) {
       vm._events = Object.create(null);
+      return vm
+    }
+    // array of events
+    if (Array.isArray(event)) {
+      for (var i$1 = 0, l = event.length; i$1 < l; i$1++) {
+        this$1.$off(event[i$1], fn);
+      }
       return vm
     }
     // specific event
@@ -42752,14 +42766,15 @@ function resolveSlots (
       defaultSlot.push(child);
     }
   }
-  // ignore single whitespace
-  if (defaultSlot.length && !(
-    defaultSlot.length === 1 &&
-    (defaultSlot[0].text === ' ' || defaultSlot[0].isComment)
-  )) {
+  // ignore whitespace
+  if (!defaultSlot.every(isWhitespace)) {
     slots.default = defaultSlot;
   }
   return slots
+}
+
+function isWhitespace (node) {
+  return node.isComment || node.text === ' '
 }
 
 function resolveScopedSlots (
@@ -42898,10 +42913,11 @@ function mountComponent (
     vm.$options.render = createEmptyVNode;
     if (process.env.NODE_ENV !== 'production') {
       /* istanbul ignore if */
-      if (vm.$options.template && vm.$options.template.charAt(0) !== '#') {
+      if ((vm.$options.template && vm.$options.template.charAt(0) !== '#') ||
+        vm.$options.el || el) {
         warn(
           'You are using the runtime-only build of Vue where the template ' +
-          'option is not available. Either pre-compile the templates into ' +
+          'compiler is not available. Either pre-compile the templates into ' +
           'render functions, or use the compiler-included build.',
           vm
         );
@@ -44397,14 +44413,17 @@ function renderMixin (Vue) {
 
 /*  */
 
-function initInjections (vm) {
+function initProvide (vm) {
   var provide = vm.$options.provide;
-  var inject = vm.$options.inject;
   if (provide) {
     vm._provided = typeof provide === 'function'
       ? provide.call(vm)
       : provide;
   }
+}
+
+function initInjections (vm) {
+  var inject = vm.$options.inject;
   if (inject) {
     // inject is :any because flow is not smart enough to figure out cached
     // isArray here
@@ -44420,7 +44439,7 @@ function initInjections (vm) {
       var provideKey = isArray ? key : inject[key];
       var source = vm;
       while (source) {
-        if (source._provided && source._provided[provideKey]) {
+        if (source._provided && provideKey in source._provided) {
           vm[key] = source._provided[provideKey];
           break
         }
@@ -44471,8 +44490,9 @@ function initMixin (Vue) {
     initEvents(vm);
     initRender(vm);
     callHook(vm, 'beforeCreate');
+    initInjections(vm); // resolve injections before data/props
     initState(vm);
-    initInjections(vm);
+    initProvide(vm); // resolve provide after data/props
     callHook(vm, 'created');
 
     /* istanbul ignore if */
@@ -44891,7 +44911,7 @@ Object.defineProperty(Vue$3.prototype, '$isServer', {
   get: isServerRendering
 });
 
-Vue$3.version = '2.2.1';
+Vue$3.version = '2.2.2';
 
 /*  */
 
@@ -46270,6 +46290,7 @@ function genComponentModel (
 
   el.model = {
     value: ("(" + value + ")"),
+    expression: ("\"" + value + "\""),
     callback: ("function (" + baseValueExpression + ") {" + assignment + "}")
   };
 }
@@ -46449,14 +46470,6 @@ function genCheckboxModel (
   value,
   modifiers
 ) {
-  if (process.env.NODE_ENV !== 'production' &&
-    el.attrsMap.checked != null) {
-    warn$1(
-      "<" + (el.tag) + " v-model=\"" + value + "\" checked>:\n" +
-      "inline checked attributes will be ignored when using v-model. " +
-      'Declare initial values in the component\'s data option instead.'
-    );
-  }
   var number = modifiers && modifiers.number;
   var valueBinding = getBindingAttr(el, 'value') || 'null';
   var trueValueBinding = getBindingAttr(el, 'true-value') || 'true';
@@ -46488,14 +46501,6 @@ function genRadioModel (
     value,
     modifiers
 ) {
-  if (process.env.NODE_ENV !== 'production' &&
-    el.attrsMap.checked != null) {
-    warn$1(
-      "<" + (el.tag) + " v-model=\"" + value + "\" checked>:\n" +
-      "inline checked attributes will be ignored when using v-model. " +
-      'Declare initial values in the component\'s data option instead.'
-    );
-  }
   var number = modifiers && modifiers.number;
   var valueBinding = getBindingAttr(el, 'value') || 'null';
   valueBinding = number ? ("_n(" + valueBinding + ")") : valueBinding;
@@ -46508,10 +46513,6 @@ function genSelect (
     value,
     modifiers
 ) {
-  if (process.env.NODE_ENV !== 'production') {
-    el.children.some(checkOptionWarning);
-  }
-
   var number = modifiers && modifiers.number;
   var selectedVal = "Array.prototype.filter" +
     ".call($event.target.options,function(o){return o.selected})" +
@@ -46522,20 +46523,6 @@ function genSelect (
   var code = "var $$selectedVal = " + selectedVal + ";";
   code = code + " " + (genAssignmentCode(value, assignment));
   addHandler(el, 'change', code, null, true);
-}
-
-function checkOptionWarning (option) {
-  if (option.type === 1 &&
-    option.tag === 'option' &&
-    option.attrsMap.selected != null) {
-    warn$1(
-      "<select v-model=\"" + (option.parent.attrsMap['v-model']) + "\">:\n" +
-      'inline selected attributes on <option> will be ignored when using v-model. ' +
-      'Declare initial values in the component\'s data option instead.'
-    );
-    return true
-  }
-  return false
 }
 
 function genDefaultModel (
@@ -47035,9 +47022,9 @@ var transformRE = /\b(transform|all)(,|$)/;
 
 function getTransitionInfo (el, expectedType) {
   var styles = window.getComputedStyle(el);
-  var transitioneDelays = styles[transitionProp + 'Delay'].split(', ');
+  var transitionDelays = styles[transitionProp + 'Delay'].split(', ');
   var transitionDurations = styles[transitionProp + 'Duration'].split(', ');
-  var transitionTimeout = getTimeout(transitioneDelays, transitionDurations);
+  var transitionTimeout = getTimeout(transitionDelays, transitionDurations);
   var animationDelays = styles[animationProp + 'Delay'].split(', ');
   var animationDurations = styles[animationProp + 'Duration'].split(', ');
   var animationTimeout = getTimeout(animationDelays, animationDurations);
@@ -47187,7 +47174,7 @@ function enter (vnode, toggleDisplay) {
   }
 
   var expectsCSS = css !== false && !isIE9;
-  var userWantsControl = getHookAgumentsLength(enterHook);
+  var userWantsControl = getHookArgumentsLength(enterHook);
 
   var cb = el._enterCb = once(function () {
     if (expectsCSS) {
@@ -47279,7 +47266,7 @@ function leave (vnode, rm) {
   var duration = data.duration;
 
   var expectsCSS = css !== false && !isIE9;
-  var userWantsControl = getHookAgumentsLength(leave);
+  var userWantsControl = getHookArgumentsLength(leave);
 
   var explicitLeaveDuration = toNumber(
     isObject(duration)
@@ -47376,12 +47363,12 @@ function isValidDuration (val) {
  * - a wrapped component method (check ._length)
  * - a plain function (.length)
  */
-function getHookAgumentsLength (fn) {
+function getHookArgumentsLength (fn) {
   if (!fn) { return false }
   var invokerFns = fn.fns;
   if (invokerFns) {
     // invoker
-    return getHookAgumentsLength(
+    return getHookArgumentsLength(
       Array.isArray(invokerFns)
         ? invokerFns[0]
         : invokerFns
@@ -47801,7 +47788,7 @@ var Transition = {
 // we force transition-group to update its children into two passes:
 // in the first pass, we remove all nodes that need to be removed,
 // triggering their leaving transition; in the second pass, we insert/move
-// into the final disired state. This way in the second pass removed
+// into the final desired state. This way in the second pass removed
 // nodes will remain where they should be.
 
 var props = extend({
@@ -48028,15 +48015,13 @@ var shouldDecodeNewlines = inBrowser ? shouldDecode('\n', '&#10;') : false;
 
 var isUnaryTag = makeMap(
   'area,base,br,col,embed,frame,hr,img,input,isindex,keygen,' +
-  'link,meta,param,source,track,wbr',
-  true
+  'link,meta,param,source,track,wbr'
 );
 
 // Elements that you can, intentionally, leave open
 // (and which close themselves)
 var canBeLeftOpenTag = makeMap(
-  'colgroup,dd,dt,li,options,p,td,tfoot,th,thead,tr,source',
-  true
+  'colgroup,dd,dt,li,options,p,td,tfoot,th,thead,tr,source'
 );
 
 // HTML5 tags https://html.spec.whatwg.org/multipage/indices.html#elements-3
@@ -48046,8 +48031,7 @@ var isNonPhrasingTag = makeMap(
   'details,dialog,div,dl,dt,fieldset,figcaption,figure,footer,form,' +
   'h1,h2,h3,h4,h5,h6,head,header,hgroup,hr,html,legend,li,menuitem,meta,' +
   'optgroup,option,param,rp,rt,source,style,summary,tbody,td,tfoot,th,thead,' +
-  'title,tr,track',
-  true
+  'title,tr,track'
 );
 
 /*  */
@@ -48408,10 +48392,10 @@ function parseText (
 /*  */
 
 var dirRE = /^v-|^@|^:/;
+var onRE = /^@|^v-on:/;
 var forAliasRE = /(.*?)\s+(?:in|of)\s+(.*)/;
 var forIteratorRE = /\((\{[^}]*\}|[^,]*),([^,]*)(?:,([^,]*))?\)/;
 var bindRE = /^:|^v-bind:/;
-var onRE = /^@|^v-on:/;
 var argRE = /:(.*)$/;
 var modifierRE = /\.[^.]+/g;
 
@@ -49104,9 +49088,9 @@ var modifierCode = {
   shift: genGuard("!$event.shiftKey"),
   alt: genGuard("!$event.altKey"),
   meta: genGuard("!$event.metaKey"),
-  left: genGuard("$event.button !== 0"),
-  middle: genGuard("$event.button !== 1"),
-  right: genGuard("$event.button !== 2")
+  left: genGuard("'button' in $event && $event.button !== 0"),
+  middle: genGuard("'button' in $event && $event.button !== 1"),
+  right: genGuard("'button' in $event && $event.button !== 2")
 };
 
 function genHandlers (events, native) {
@@ -49123,34 +49107,47 @@ function genHandler (
 ) {
   if (!handler) {
     return 'function(){}'
-  } else if (Array.isArray(handler)) {
+  }
+
+  if (Array.isArray(handler)) {
     return ("[" + (handler.map(function (handler) { return genHandler(name, handler); }).join(',')) + "]")
-  } else if (!handler.modifiers) {
-    return fnExpRE.test(handler.value) || simplePathRE.test(handler.value)
+  }
+
+  var isMethodPath = simplePathRE.test(handler.value);
+  var isFunctionExpression = fnExpRE.test(handler.value);
+
+  if (!handler.modifiers) {
+    return isMethodPath || isFunctionExpression
       ? handler.value
-      : ("function($event){" + (handler.value) + "}")
+      : ("function($event){" + (handler.value) + "}") // inline statement
   } else {
     var code = '';
     var keys = [];
     for (var key in handler.modifiers) {
       if (modifierCode[key]) {
         code += modifierCode[key];
+        // left/right
+        if (keyCodes[key]) {
+          keys.push(key);
+        }
       } else {
         keys.push(key);
       }
     }
     if (keys.length) {
-      code = genKeyFilter(keys) + code;
+      code += genKeyFilter(keys);
     }
-    var handlerCode = simplePathRE.test(handler.value)
+    var handlerCode = isMethodPath
       ? handler.value + '($event)'
-      : handler.value;
+      : isFunctionExpression
+        ? ("(" + (handler.value) + ")($event)")
+        : handler.value;
     return ("function($event){" + code + handlerCode + "}")
   }
 }
 
 function genKeyFilter (keys) {
-  return ("if(" + (keys.map(genFilterCode).join('&&')) + ")return null;")
+  return ("if(!('button' in $event)&&" + (keys.map(genFilterCode).join('&&')) + ")return null;")
 }
 
 function genFilterCode (key) {
@@ -49383,7 +49380,7 @@ function genData (el) {
   }
   // component v-model
   if (el.model) {
-    data += "model:{value:" + (el.model.value) + ",callback:" + (el.model.callback) + "},";
+    data += "model:{value:" + (el.model.value) + ",callback:" + (el.model.callback) + ",expression:" + (el.model.expression) + "},";
   }
   // inline-template
   if (el.inlineTemplate) {
@@ -49460,10 +49457,8 @@ function genChildren (el, checkSkip) {
         el$1.tag !== 'slot') {
       return genElement(el$1)
     }
-    var normalizationType = getNormalizationType(children);
-    return ("[" + (children.map(genNode).join(',')) + "]" + (checkSkip
-        ? normalizationType ? ("," + normalizationType) : ''
-        : ''))
+    var normalizationType = checkSkip ? getNormalizationType(children) : 0;
+    return ("[" + (children.map(genNode).join(',')) + "]" + (normalizationType ? ("," + normalizationType) : ''))
   }
 }
 
@@ -49555,14 +49550,22 @@ function transformSpecialNewlines (text) {
 
 /*  */
 
-// operators like typeof, instanceof and in are allowed
+// these keywords should not appear inside expressions, but operators like
+// typeof, instanceof and in are allowed
 var prohibitedKeywordRE = new RegExp('\\b' + (
   'do,if,for,let,new,try,var,case,else,with,await,break,catch,class,const,' +
   'super,throw,while,yield,delete,export,import,return,switch,default,' +
   'extends,finally,continue,debugger,function,arguments'
 ).split(',').join('\\b|\\b') + '\\b');
+
+// these unary operators should not be used as property/method names
+var unaryOperatorsRE = new RegExp('\\b' + (
+  'delete,typeof,void'
+).split(',').join('\\s*\\([^\\)]*\\)|\\b') + '\\s*\\([^\\)]*\\)');
+
 // check valid identifier for v-for
 var identRE = /[A-Za-z_$][\w$]*/;
+
 // strip strings in expressions
 var stripStringRE = /'(?:[^'\\]|\\.)*'|"(?:[^"\\]|\\.)*"|`(?:[^`\\]|\\.)*\$\{|\}(?:[^`\\]|\\.)*`|`(?:[^`\\]|\\.)*`/g;
 
@@ -49583,6 +49586,8 @@ function checkNode (node, errors) {
         if (value) {
           if (name === 'v-for') {
             checkFor(node, ("v-for=\"" + value + "\""), errors);
+          } else if (onRE.test(name)) {
+            checkEvent(value, (name + "=\"" + value + "\""), errors);
           } else {
             checkExpression(value, (name + "=\"" + value + "\""), errors);
           }
@@ -49597,6 +49602,17 @@ function checkNode (node, errors) {
   } else if (node.type === 2) {
     checkExpression(node.expression, node.text, errors);
   }
+}
+
+function checkEvent (exp, text, errors) {
+  var keywordMatch = exp.replace(stripStringRE, '').match(unaryOperatorsRE);
+  if (keywordMatch) {
+    errors.push(
+      "avoid using JavaScript unary operator as property name: " +
+      "\"" + (keywordMatch[0]) + "\" in expression " + (text.trim())
+    );
+  }
+  checkExpression(exp, text, errors);
 }
 
 function checkFor (node, text, errors) {
