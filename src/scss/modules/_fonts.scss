@@ -3,6 +3,55 @@
 
 $icomoon-font-path: "./../fonts" !default;
 
+$icon-ai: "\ea82";
+$icon-android: "\ea83";
+$icon-arobase: "\ea84";
+$icon-binoculars: "\ea85";
+$icon-bluetooth: "\ea86";
+$icon-board: "\ea87";
+$icon-bottle: "\ea88";
+$icon-calculator: "\ea89";
+$icon-circle: "\ea8a";
+$icon-scissors: "\ea8b";
+$icon-clip: "\ea8c";
+$icon-code: "\ea8d";
+$icon-coffee: "\ea8e";
+$icon-eject: "\ea8f";
+$icon-fastforward: "\ea90";
+$icon-finder: "\ea91";
+$icon-forward: "\ea92";
+$icon-game: "\ea93";
+$icon-gif: "\ea94";
+$icon-glass: "\ea95";
+$icon-google: "\ea96";
+$icon-graduation: "\ea97";
+$icon-hardrive: "\ea98";
+$icon-hierarchy: "\ea99";
+$icon-jpg: "\ea9a";
+$icon-laptop: "\ea9b";
+$icon-microsoft: "\ea9c";
+$icon-mouse: "\ea9d";
+$icon-network: "\ea9e";
+$icon-off: "\ea9f";
+$icon-os: "\eaa0";
+$icon-pause: "\eaa1";
+$icon-pdf: "\eaa2";
+$icon-pinetree: "\eaa3";
+$icon-play: "\eaa4";
+$icon-player: "\eaa5";
+$icon-png: "\eaa6";
+$icon-printer: "\eaa7";
+$icon-psd: "\eaa8";
+$icon-record: "\eaa9";
+$icon-rocket: "\eaaa";
+$icon-safari: "\eaab";
+$icon-safe: "\eaac";
+$icon-servers: "\eaad";
+$icon-smartphone: "\eaae";
+$icon-tablet: "\eaaf";
+$icon-tie: "\eab0";
+$icon-tiebow: "\eab1";
+$icon-turntable: "\eab2";
 $icon-arrow-1: "\e969";
 $icon-arrow-2: "\e96a";
 $icon-arrow-3: "\e96b";
@@ -287,7 +336,7 @@ $icon-youtube-square: "\ea81";
 $icon-notepad: "\e908";
 $icon-papers-lines: "\e909";
 $icon-commenting: "\e90a";
-$icon-CRM: "\e90b";
+$icon-crm: "\e90b";
 $icon-faq: "\e90c";
 $icon-gallery: "\e90d";
 $icon-send: "\e90e";
@@ -361,7 +410,7 @@ $icon-page: "\e951";
 $icon-people: "\e952";
 $icon-phone: "\e953";
 $icon-phone-call: "\e954";
-$icon-ring: "\e955";
+$icon-key: "\e955";
 $icon-toolbox: "\e956";
 $icon-screens-blank: "\e957";
 $icon-search-minute: "\e958";
@@ -421,6 +470,251 @@ $icon-times: "\e968";
   width: 1.5rem;
 }
 
+.icon-ai {
+  &:before {
+    content: $icon-ai;
+  }
+}
+.icon-android {
+  &:before {
+    content: $icon-android;
+  }
+}
+.icon-arobase {
+  &:before {
+    content: $icon-arobase;
+  }
+}
+.icon-binoculars {
+  &:before {
+    content: $icon-binoculars;
+  }
+}
+.icon-bluetooth {
+  &:before {
+    content: $icon-bluetooth;
+  }
+}
+.icon-board {
+  &:before {
+    content: $icon-board;
+  }
+}
+.icon-bottle {
+  &:before {
+    content: $icon-bottle;
+  }
+}
+.icon-calculator {
+  &:before {
+    content: $icon-calculator;
+  }
+}
+.icon-circle {
+  &:before {
+    content: $icon-circle;
+  }
+}
+.icon-scissors {
+  &:before {
+    content: $icon-scissors;
+  }
+}
+.icon-clip {
+  &:before {
+    content: $icon-clip;
+  }
+}
+.icon-code {
+  &:before {
+    content: $icon-code;
+  }
+}
+.icon-coffee {
+  &:before {
+    content: $icon-coffee;
+  }
+}
+.icon-eject {
+  &:before {
+    content: $icon-eject;
+  }
+}
+.icon-fastforward {
+  &:before {
+    content: $icon-fastforward;
+  }
+}
+.icon-finder {
+  &:before {
+    content: $icon-finder;
+  }
+}
+.icon-forward {
+  &:before {
+    content: $icon-forward;
+  }
+}
+.icon-game {
+  &:before {
+    content: $icon-game;
+  }
+}
+.icon-gif {
+  &:before {
+    content: $icon-gif;
+  }
+}
+.icon-glass {
+  &:before {
+    content: $icon-glass;
+  }
+}
+.icon-google {
+  &:before {
+    content: $icon-google;
+  }
+}
+.icon-graduation {
+  &:before {
+    content: $icon-graduation;
+  }
+}
+.icon-hardrive {
+  &:before {
+    content: $icon-hardrive;
+  }
+}
+.icon-hierarchy {
+  &:before {
+    content: $icon-hierarchy;
+  }
+}
+.icon-jpg {
+  &:before {
+    content: $icon-jpg;
+  }
+}
+.icon-laptop {
+  &:before {
+    content: $icon-laptop;
+  }
+}
+.icon-microsoft {
+  &:before {
+    content: $icon-microsoft;
+  }
+}
+.icon-mouse {
+  &:before {
+    content: $icon-mouse;
+  }
+}
+.icon-network {
+  &:before {
+    content: $icon-network;
+  }
+}
+.icon-off {
+  &:before {
+    content: $icon-off;
+  }
+}
+.icon-os {
+  &:before {
+    content: $icon-os;
+  }
+}
+.icon-pause {
+  &:before {
+    content: $icon-pause;
+  }
+}
+.icon-pdf {
+  &:before {
+    content: $icon-pdf;
+  }
+}
+.icon-pinetree {
+  &:before {
+    content: $icon-pinetree;
+  }
+}
+.icon-play {
+  &:before {
+    content: $icon-play;
+  }
+}
+.icon-player {
+  &:before {
+    content: $icon-player;
+  }
+}
+.icon-png {
+  &:before {
+    content: $icon-png;
+  }
+}
+.icon-printer {
+  &:before {
+    content: $icon-printer;
+  }
+}
+.icon-psd {
+  &:before {
+    content: $icon-psd;
+  }
+}
+.icon-record {
+  &:before {
+    content: $icon-record;
+  }
+}
+.icon-rocket {
+  &:before {
+    content: $icon-rocket;
+  }
+}
+.icon-safari {
+  &:before {
+    content: $icon-safari;
+  }
+}
+.icon-safe {
+  &:before {
+    content: $icon-safe;
+  }
+}
+.icon-servers {
+  &:before {
+    content: $icon-servers;
+  }
+}
+.icon-smartphone {
+  &:before {
+    content: $icon-smartphone;
+  }
+}
+.icon-tablet {
+  &:before {
+    content: $icon-tablet;
+  }
+}
+.icon-tie {
+  &:before {
+    content: $icon-tie;
+  }
+}
+.icon-tiebow {
+  &:before {
+    content: $icon-tiebow;
+  }
+}
+.icon-turntable {
+  &:before {
+    content: $icon-turntable;
+  }
+}
 .icon-arrow-1 {
   &:before {
     content: $icon-arrow-1;
@@ -1841,9 +2135,9 @@ $icon-times: "\e968";
     content: $icon-commenting;
   }
 }
-.icon-CRM {
+.icon-crm {
   &:before {
-    content: $icon-CRM;
+    content: $icon-crm;
   }
 }
 .icon-faq {
@@ -2211,9 +2505,9 @@ $icon-times: "\e968";
     content: $icon-phone-call;
   }
 }
-.icon-ring {
+.icon-key {
   &:before {
-    content: $icon-ring;
+    content: $icon-key;
   }
 }
 .icon-toolbox {
