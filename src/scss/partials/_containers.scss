@@ -1,9 +1,3 @@
-#main {
-    position: relative;
-    padding-bottom: $footer-height;
-    padding-top: $header-height + 30;
-}
-
 .close {
     font-size: 34px;
     font-weight: 300;
@@ -19,19 +13,4 @@
 .popover {
     border: none;
     box-shadow: 0 1px 4px rgba(0,0,0,.3);
-}
-
-.content {
-    margin: 0;
-    padding: 0;
-}
-
-@media (min-width: 768px) {
-    .content {
-        margin-left: $sidebar-width;
-    }
-}
-
-.container-content {
-    padding: 30px 30px;
 }
