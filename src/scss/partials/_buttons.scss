@@ -75,7 +75,7 @@
       opacity: 1;
     }
 
-    &.dropdown-toggle::before {
+    &.dropdown-toggle::after {
       display: inline-block;
       width: 0;
       height: 0;
@@ -94,17 +94,24 @@
     }
   }
 
-  &.dropdown-toggle::before {
+  &.dropdown-toggle::after {
+    opacity: 1;
+    left: 5px;
     display: inline-block;
     width: 0;
     height: 0;
     margin-left: 0.3em;
     vertical-align: middle;
     content: '';
-    border-top: 0.3em solid;
+    border-top: 0.3em solid $gray-lighter;
     border-right: 0.3em solid transparent;
     border-left: 0.3em solid transparent;
   }
+}
+
+.dropdown-toggle::after {
+  position: absolute;
+  top: 50%;
 }
 
 .btn-group {
