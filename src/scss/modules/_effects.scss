@@ -1,7 +1,7 @@
 @mixin ripple($color) {
     position: relative;
 
-    &:after {
+    &:before {
         content: "";
         display: block;
         position: absolute;
@@ -19,7 +19,7 @@
         transition: background .5s, opacity 1s;
     }
 
-    &:active:after {
+    &:active:before {
         background-size: 0% 0%;
         opacity: .2;
         transition: 0s;
