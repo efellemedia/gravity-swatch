@@ -1,11 +1,12 @@
-// Modules and Variables
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto+Slab|Roboto:300|Open+Sans');
+
 @import 'modules/animate';
 @import 'modules/effects';
-@import 'modules/fonts';
 @import 'modules/variables';
 
 // Third Party
 @import '../../node_modules/bootstrap/scss/bootstrap';
+@import 'vendor/styles';
 
 // Partials
 @import 'partials/base';
