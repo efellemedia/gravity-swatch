@@ -1,53 +1,54 @@
 body {
-    padding-bottom: 100px;
-    font-smoothing: antialiased;
+  padding-bottom: 100px;
+  font-smoothing: antialiased;
 }
 
 p {
-    margin: 0 0 1em;
+  margin: 0 0 1em;
 }
 
 input,
 button {
-    -webkit-font-smoothing: antialiased;
-    letter-spacing: .1px;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: .1px;
 }
 
 a {
-    transition: all 0.2s;
+  transition: all 0.2s;
 }
 
 code {
-    background-color: transparent;
-    color: $brand-info;
+  background-color: transparent;
+  color: $brand-info;
 }
 
 [v-cloak] {
-    top: 0;
-    left: 0;
-    background: $body-bg;
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    z-index: 9999;
+  top: 0;
+  left: 0;
+  background: $body-bg;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: 9999;
 }
 
 .main {
-    padding: 0 !important;
+  padding: 0 !important;
 }
 
 .bg-white {
-    background-color: #fff;
+  background-color: #fff;
 }
 
 .icon-preview {
   padding: 15px;
+  
   .icon {
     font-size: 2rem;
     width: 2rem;
     line-height: 2;
     margin-right: 15px;
     vertical-align: middle;
-    text-align: center; 
+    text-align: center;
   }
 }

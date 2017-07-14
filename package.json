@@ -1,21 +1,23 @@
 {
   "name": "@efelle/gravity-swatch",
-  "version": "0.0.4",
+  "version": "0.2.0",
   "license": "UNLICENSED",
   "repository": "git@github.com:efellemedia/gravity-swatch.git",
   "scripts": {
-    "dev": "cross-env NODE_ENV=development webpack --progress --hide-modules",
-    "watch": "cross-env NODE_ENV=development webpack --watch --progress --hide-modules",
-    "hot": "cross-env NODE_ENV=development webpack-dev-server --inline --hot",
-    "production": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+    "dev": "yarn development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch-poll": "yarn watch -- --watch-poll",
+    "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "yarn production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
   },
   "author": "efelle",
   "dependencies": {
-    "bootstrap": "^4.0.0-alpha.6",
-    "font-awesome": "^4.7.0"
+    "bootstrap": "^4.0.0-alpha.6"
   },
   "devDependencies": {
-    "laravel-mix": "^0.8.8",
-    "vue": "^2.2.1"
+    "cross-env": "^3.2.4",
+    "laravel-mix": "^1.2.0"
   }
 }
