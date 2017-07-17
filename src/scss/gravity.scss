@@ -4,8 +4,6 @@
 @import 'modules/effects';
 @import 'modules/variables';
 
-// Third Party
-@import '../../node_modules/bootstrap/scss/bootstrap';
 @import 'vendor/styles';
 
 // Partials
@@ -15,12 +13,10 @@
 @import 'partials/breadcrumb';
 @import 'partials/buttons';
 @import 'partials/cards';
-@import 'partials/containers';
 @import 'partials/forms';
 @import 'partials/indicators';
 @import 'partials/modal';
 @import 'partials/navbar';
 @import 'partials/navs';
 @import 'partials/progress';
-@import 'partials/sidebar';
 @import 'partials/tables';
