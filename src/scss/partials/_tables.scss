@@ -1,36 +1,39 @@
 .table-hover {
-    > tbody > tr,
-    > tbody > tr > th,
-    > tbody > tr > td {
-        transition: all 0.2s;
-    }
+  > tbody > tr,
+  > tbody > tr > th,
+  > tbody > tr > td {
+    transition: all 0.2s;
+  }
+}
+
+.tab-content .table:last-child,
+.card .table:last-child {
+  padding-bottom: 0;
 }
 
 .table {
-    td, th {
-      padding: .9rem;
-        // padding-top: .9rem !important;
-        // padding-bottom: .9rem !important;
-        border: none !important;
+  td, th {
+    padding: .9rem;
+    border: none !important;
 
-        &:first-child {
-            padding-left: 30px;
-        }
-
-        &:last-child {
-            padding-right: 30px;
-        }
-
-        &.actions {
-            text-align: right;
-            font-size: 1.3rem;
-        }
+    &:first-child {
+      padding-left: 30px;
     }
 
-    thead {
-        th {
-            text-transform: uppercase;
-            font-weight: bolder;
-        }
+    &:last-child {
+      padding-right: 30px;
     }
+
+    &.actions {
+      text-align: right;
+      font-size: 1.3rem;
+    }
+  }
+
+  thead {
+    th {
+      text-transform: uppercase;
+      font-weight: bolder;
+    }
+  }
 }
