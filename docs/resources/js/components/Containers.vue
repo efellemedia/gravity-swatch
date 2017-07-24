@@ -67,6 +67,34 @@
                     <h2>Cards</h2>
                 </div>
             </div>
+            
+            <div class="row">
+                <div class="col">
+                    <div class="card card-default">
+                        <div class="card-header">
+                            Card Table
+                        </div>
+                        
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Lorem</th>
+                                    <th>Ipsum</th>
+                                    <th>Dolar</th>
+                                </tr>
+                            </thead>
+                            
+                            <tbody>
+                                <tr>
+                                    <td>Foo</td>
+                                    <td>Bar</td>
+                                    <td>Baz</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
 
             <div class="row">
                 <div class="col-lg-4">

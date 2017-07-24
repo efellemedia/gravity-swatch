@@ -19,6 +19,7 @@
 
   .btn-outline-#{$class} {
     @include ripple($color);
+    box-shadow: none !important;
   }
 }
 
@@ -45,17 +46,17 @@
   }
 
   &-link {
-    box-shadow: none;
+    box-shadow: none !important;
     color: $link-color;
 
     &:hover,
     &:focus {
-      box-shadow: none;
+      box-shadow: none !important;
       color: $link-hover-color;
       text-decoration: $link-hover-decoration;
     }
 
-    &.disabled, // Although btn-link is intended for buttons, which want to look like link, I include here a.disable for the sake of consistency
+    &.disabled,
     &[disabled],
     fieldset[disabled] & {
       &:hover,

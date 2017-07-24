@@ -6,7 +6,12 @@
 //
 // Quickly modify global styling by enabling or disabling optional features.
 
-$enable-rounded:            true !default;
+$enable-rounded: true !default;
+$enable-shadows: true !default;
+
+$border-radius:          2px !default;
+$border-radius-lg:       3px !default;
+$border-radius-sm:       2px !default;
 
 // Colors
 //
@@ -27,93 +32,37 @@ $brand-info:                #00bcd4;
 $brand-danger:              #f44336;
 $brand-inverse:             $gray-dark !default;
 
-
-// Buttons
-
-// $btn-padding-x:                  1rem !default;
-// $btn-padding-y:                  .5rem !default;
-
-
-// UI Height and Widths
-//
-// Header, Sidebar, and Footer height and widths
-
 $header-height:             70px;
 $footer-height:             110px;
 
-
-// Sidebar
-
-$sidebar-width:                 300px;
-
-$sidebar-color:                 $gray-lighter;
-$sidebar-bg:                    $gray-dark;
-$sidebar-hover-color:           $gray-lighter;
-$sidebar-hover-bg:              #c85b20;
-
-$sidebar-brand-bg:              #fff;
-
-$sidebar-children-color:        $gray-lighter;
-$sidebar-children-bg:           $brand-primary;
-$sidebar-children-hover-color:  $gray-lighter;
-$sidebar-children-hover-bg:     $sidebar-hover-bg;
-
-// Body
-//
-// Settings for the `<body>` element.
-
 $body-bg: #eee !default;
-
-// Breadcrumbs
 
 $breadcrumb-bg: #fff !default;
 
-
-// Typography
-//
-// Font, line-height, and color for body text, headings, and more.
-
+$fa-font-path:           "../fonts" !default;
 $font-family-sans-serif: "Open Sans", sans-serif;
 $font-family-serif:      "Roboto Slab", serif !default;
 $font-family-monospace:  "Roboto Mono", monospace !default;
 $font-family-base:       $font-family-sans-serif !default;
 $headings-font-family: $font-family-serif;
 
-
-// Cards
-
 $card-header-color:     #f00 !default;
-$card-header-font-size: 1.1rem;
+$card-header-font-size: 1rem;
 $card-cap-bg:           $gray-dark !default;
-
-
-// Modal
 
 $modal-title-font-size: 1.1rem;
 $modal-title-color: $brand-primary;
-
-
-// Forms
 
 $input-bg:                       transparent;
 $input-bg-disabled:              transparent;
 $input-group-addon-border-color: transparent !important;
 
-
-// Navbar
-
 $navbar-brand-padding-y:   1px !default;
 $navbar-divider-padding-y: .425rem !default;
 
-// Jumbotron
-
 $jumbotron-bg: #fff;
 
-// Blockquotes
-
 $blockquote-border-color: $gray-dark !default;
-
-// Alerts
 
 $alert-success-bg:            $brand-success !default;
 $alert-success-text:          $gray-lightest !default;
@@ -131,12 +80,7 @@ $alert-danger-bg:             $brand-danger !default;
 $alert-danger-text:           $gray-lightest !default;
 $alert-danger-border:         $brand-danger !default;
 
-// Progress
-
 $progress-bg: #fff !default;
-
-
-// Table
 
 $table-bg-accent:               $gray-lightest !default;
 $table-bg-hover:                $gray-lightest !default;
