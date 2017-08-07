@@ -2,6 +2,10 @@ label {
     font-weight: bold;
 }
 
+.form-group.required label:after {
+  content:" *";
+}
+
 :focus,
 :active {
     outline: none !important;

@@ -47530,7 +47530,7 @@ module.exports = function(module) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue_router__ = __webpack_require__(2);
 
 
-var routes = [{ path: '/', component: __webpack_require__(188) }];
+var routes = [{ path: '/', component: __webpack_require__(188) }, { path: '/getting-started', component: __webpack_require__(257) }];
 
 /* harmony default export */ __webpack_exports__["a"] = (new __WEBPACK_IMPORTED_MODULE_0_vue_router__["a" /* default */]({
     routes: routes
@@ -49393,7 +49393,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   }, [_c('div', {
     staticClass: "card card-block"
   }, [_c('form', [_c('fieldset', [_c('legend', [_vm._v("Legend")]), _vm._v(" "), _c('div', {
-    staticClass: "form-group"
+    staticClass: "form-group required"
   }, [_c('label', {
     attrs: {
       "for": "email"
@@ -50802,7 +50802,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   }, [_vm._v("Card")]), _vm._v(" "), _c('ul', {
     staticClass: "nav nav-tabs"
   }, [_c('li', {
-    staticClass: "nav-item"
+    staticClass: "nav-item required"
   }, [_c('a', {
     staticClass: "nav-link active",
     attrs: {
@@ -51917,6 +51917,14 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
     name: 'navbar'
@@ -51927,19 +51935,31 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _vm._m(0)
-},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('nav', {
     staticClass: "navbar navbar-toggleable-md fixed-top navbar-inverse bg-inverse"
   }, [_c('div', {
     staticClass: "container"
-  }, [_c('a', {
+  }, [_c('div', {
+    staticClass: "navbar-header"
+  }, [_c('router-link', {
     staticClass: "navbar-brand",
     attrs: {
-      "href": "#"
+      "to": "/"
     }
-  }, [_vm._v("Gravity Swatch")])])])
-}]}
+  }, [_vm._v("Gravity Swatch")])], 1), _vm._v(" "), _c('nav', {
+    staticClass: "collapse navbar-collapse",
+    attrs: {
+      "id": "header"
+    }
+  }, [_c('ul', {
+    staticClass: "nav navbar-nav"
+  }, [_c('li', [_c('router-link', {
+    staticClass: "nav-link",
+    attrs: {
+      "to": "/getting-started"
+    }
+  }, [_vm._v("Getting Started")])], 1)])])])])
+},staticRenderFns: []}
 module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
@@ -51953,6 +51973,147 @@ if (false) {
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 231 */,
+/* 232 */,
+/* 233 */,
+/* 234 */,
+/* 235 */,
+/* 236 */,
+/* 237 */,
+/* 238 */,
+/* 239 */,
+/* 240 */,
+/* 241 */,
+/* 242 */,
+/* 243 */,
+/* 244 */,
+/* 245 */,
+/* 246 */,
+/* 247 */,
+/* 248 */,
+/* 249 */,
+/* 250 */,
+/* 251 */,
+/* 252 */,
+/* 253 */,
+/* 254 */,
+/* 255 */,
+/* 256 */,
+/* 257 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var disposed = false
+var Component = __webpack_require__(0)(
+  /* script */
+  __webpack_require__(258),
+  /* template */
+  __webpack_require__(259),
+  /* styles */
+  null,
+  /* scopeId */
+  null,
+  /* moduleIdentifier (server only) */
+  null
+)
+Component.options.__file = "/Users/Kai/Code/gravity-swatch/docs/resources/js/views/GettingStarted.vue"
+if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
+if (Component.options.functional) {console.error("[vue-loader] GettingStarted.vue: functional components are not supported with templates, they should use render functions.")}
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-a9876a58", Component.options)
+  } else {
+    hotAPI.reload("data-v-a9876a58", Component.options)
+  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 258 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    name: 'getting-started'
+});
+
+/***/ }),
+/* 259 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _vm._m(0)
+},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
+    staticClass: "col"
+  }, [_c('h1', [_vm._v("Getting Started")]), _vm._v(" "), _c('div', {
+    staticClass: "card card-block"
+  }, [_c('p', [_vm._v("There are a couple of ways to "), _c('b', [_vm._v("get started")]), _vm._v(" with the Gravity Swatch. You can either:")]), _vm._v(" "), _c('ol', [_c('li', [_vm._v("use "), _c('b', [_vm._v("yarn")]), _vm._v(" to install the Gravity Swatch package")]), _vm._v(" "), _c('li', [_vm._v("use the "), _c('b', [_vm._v("GitHub repository")]), _vm._v(" to get the latest development version")])]), _vm._v(" "), _c('h3', [_vm._v("1. Use Yarn ("), _c('em', [_vm._v("recommended")]), _vm._v(")")]), _vm._v(" "), _c('p', [_c('pre', [_vm._v("yarn add @efellemedia/gravity-swatch")])]), _vm._v(" "), _c('h3', [_vm._v("2. Download from the repository")]), _vm._v(" "), _c('p', [_c('a', {
+    attrs: {
+      "href": "https://github.com/efellemedia/gravity-swatch"
+    }
+  }, [_vm._v("https://github.com/efellemedia/gravity-swatch")])])]), _vm._v(" "), _c('h2', [_vm._v("Starter Template")]), _vm._v(" "), _c('div', {
+    staticClass: "card card-block"
+  }, [_c('p', [_vm._v("\n            If you want to get started "), _c('b', [_vm._v("right away")]), _vm._v(", you can use this "), _c('b', [_vm._v("HTML starter template")]), _vm._v(". Just copy/paste this code in a file and save it on your compuer.\n        ")]), _vm._v(" "), _c('pre', [_c('code', [_vm._v("\n            \n        ")])])])])
+}]}
+module.exports.render._withStripped = true
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+     require("vue-hot-reload-api").rerender("data-v-a9876a58", module.exports)
+  }
+}
 
 /***/ })
 /******/ ]);
