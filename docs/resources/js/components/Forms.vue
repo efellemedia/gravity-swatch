@@ -11,7 +11,7 @@
                         <form>
                             <fieldset>
                                 <legend>Legend</legend>
-                                <div class="form-group">
+                                <div class="form-group required">
                                     <label for="email">E-mail Address</label>
                                     <input type="email" class="form-control" placeholder="Enter a valid e-mail address">
                                     <small class="form-text text-muted">We'll never share your e-mail with anyone else.</small>

@@ -13,7 +13,7 @@
                         <div class="card-header">Card</div>
 
                         <ul class="nav nav-tabs">
-                            <li class="nav-item">
+                            <li class="nav-item required">
                                 <a class="nav-link active" data-toggle="tab" href="#home">Home</a>
                             </li>
 
