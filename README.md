@@ -4,27 +4,40 @@
 Because there is a law such as gravity, the universe can and will create itself from nothing.
 
 ## Installation
-The Gravity swatch theme is distributed through npm as a registered private package. You must first be given read-access to the repository to be able to download the package through npm. Be sure you've logged in under your account through `npm`.
+The Gravity swatch theme is distributed through npm as a registered private package. You must first be given read-access to the repository to be able to download the package through yarn or npm. Be sure you've logged in under your account through `npm` or `yarn`.
 
 ```
-npm i @efelle/gravity-swatch --save
+yarn add @efelle/gravity-swatch
 ```
 
 ## Contributing
-Bootstrap is loaded through through npm and webpack. Run the following command to install the required dependencies.
+Run the following command to install the required dependencies.
 
 ```
-npm i
+yarn
 ```
 
 ## Compiling
 Once the dependencies have been resolved, compiling the source code is simple:
 
 ```
-npm run watch
+yarn watch
 ```
 
 the `watch` script will tell webpack to compile and watch for any future changes to the code base.
+
+## Publishing
+Once you are ready to publish, compile the source code for production:
+
+```
+yarn production
+```
+
+Bump the version in the `package.json` file, and finally, use `npm` to publish:
+
+```
+npm publish
+```
 
 ## Utilities
 
