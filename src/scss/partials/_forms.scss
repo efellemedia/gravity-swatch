@@ -2,7 +2,7 @@ label {
     font-weight: bold;
 }
 
-.form-group.required label:after {
+.form-group.required label:first-child:after {
   content:" *";
 }
 
