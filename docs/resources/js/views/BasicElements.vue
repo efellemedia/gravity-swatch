@@ -11,7 +11,6 @@
         <progress-bars></progress-bars>
         <containers></containers>
         <dialogs></dialogs>
-        <icons></icons>
     </div>
 </template>
 
@@ -20,7 +19,6 @@
     import Containers from '../components/Containers.vue';
     import Dialogs from '../components/Dialogs.vue';
     import Forms from '../components/Forms.vue';
-    import Icons from '../components/Icons.vue';
     import Indicators from '../components/Indicators.vue';
     import Introduction from '../components/Introduction.vue';
     import Navbars from '../components/Navbars.vue';
@@ -37,7 +35,6 @@
             'containers': Containers,
             'dialogs': Dialogs,
             'forms': Forms,
-            'icons': Icons,
             'indicators': Indicators,
             'introduction': Introduction,
             'navbars': Navbars,
